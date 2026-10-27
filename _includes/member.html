@@ -3,7 +3,7 @@
   {% if m.photo %}<img class="avatar" src="{{ '/assets/img/group/' | append: m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy">{% else %}<div class="avatar" aria-hidden="true">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</div>{% endif %}
   <div>
     <h3>{{ m.name }}</h3>
-    <p class="member-role">{{ m.role }}{% if m.since %} · desde {{ m.since }}{% endif %}{% if m.place %} · {{ m.place }}{% endif %}</p>
+    <p class="member-role">{{ m.role }}{% if m.since %} · since {{ m.since }}{% endif %}{% if m.place %} · {{ m.place }}{% endif %}</p>
     {% if m.topic %}<p class="member-topic">{{ m.topic | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
     {% if m.note %}<p class="member-note">{{ m.note }}</p>{% endif %}
     {% if m.funding or m.lattes %}<p class="member-meta">{% if m.funding %}{{ m.funding }}{% endif %}{% if m.lattes %}{% if m.funding %} · {% endif %}<a href="http://lattes.cnpq.br/{{ m.lattes }}" target="_blank" rel="noopener">Lattes</a>{% endif %}</p>{% endif %}

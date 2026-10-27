@@ -1,126 +1,126 @@
-# Membros do grupo. Fonte inicial: Currículo Lattes (09/2026).
+# Membros do grupo (em inglês, como o resto do site). Fonte inicial: Currículo Lattes (09/2026).
 # photo: arquivo em assets/img/group/ (opcional; sem foto aparecem as iniciais).
 # lattes: só o número do currículo.
 
 current:
   - name: Antonio Augusto Alves Junior
     photo: antonio-augusto-alves-junior.jpg
-    role: Pós-doutorado
+    role: Postdoc
     since: 2024
-    topic: Desenvolvimento da MIDb ([midb.cloud](http://www.midb.cloud))
+    topic: Development of MIDb ([midb.cloud](http://www.midb.cloud))
     funding: CNPEM, CNPq
 
   - name: Leonardo Bitencourt Vetritti
     photo: leonardo-bitencourt-vetritti.jpg
-    role: Pós-doutorado
+    role: Postdoc
     since: 2026
-    topic: Processamento de linguagem natural para pontos quânticos de carbono
+    topic: Natural language processing for carbon quantum dots
     funding: UFABC, CNPq
     lattes: "4283139554816672"
 
   - name: Arthur da Silva Sousa Santos
     photo: arthur-da-silva-sousa-santos.jpg
-    role: Doutorado
+    role: PhD student
     since: 2024
-    topic: Processamento de linguagem natural aplicado a óxidos de alta entropia
+    topic: Natural language processing applied to high-entropy oxides
     funding: UFABC, FAPESP
-    note: Mestrado (coorientação) concluído em 2023
+    note: Master's (co-supervised) completed in 2023
     lattes: "3598199190541057"
 
   - name: Carlos Eduardo Gonçalves Santos
     photo: carlos-eduardo-goncalves-santos.jpg
-    role: Doutorado
+    role: PhD student
     since: 2025
-    topic: Simulações computacionais de materiais para catálise eletroquímica e otimização via aprendizado de máquina ativo
+    topic: Computational materials simulations for electrochemical catalysis and optimization via active machine learning
     funding: UFABC, FAPESP
-    note: Iniciação científica concluída em 2025
+    note: Undergraduate research completed in 2025
     lattes: "8783064005868869"
 
   - name: Duanny Silva Onório
     photo: duanny-silva-onorio.jpg
-    role: Doutorado
+    role: PhD student
     since: 2025
-    topic: Aprendizado ativo para o desenvolvimento de novas nanopartículas metálicas, com aplicações em eletrocatálise
+    topic: Active learning for the development of new metallic nanoparticles, with applications in electrocatalysis
     funding: UFABC, FAPESP
     lattes: "4533444998489866"
 
   - name: Maria Eduarda de Oliveira Crist
     photo: maria-eduarda-de-oliveira-crist.jpg
-    role: Mestrado
+    role: Master's student
     since: 2026
-    topic: Dinâmica e propriedades de soluções aquosas confinadas através de potenciais interatômicos de aprendizado de máquina
+    topic: Dynamics and properties of confined aqueous solutions using machine-learning interatomic potentials
     funding: UFABC, FAPESP
     lattes: "4966263380247990"
 
   - name: André de Araújo Caetano
     photo: andre-de-araujo-caetano.jpg
-    role: Mestrado (coorientação)
+    role: Master's student (co-supervised)
     since: 2026
-    topic: Modelagem de emulsões de nanocelulose
+    topic: Modeling of nanocellulose emulsions
     funding: UFABC, CAPES
-    note: Orientadora principal, Juliana Bernardes (LNNano/CNPEM)
+    note: Main supervisor, Juliana Bernardes (LNNano/CNPEM)
     lattes: "2934694795422790"
 
   - name: Enzo Januzzi Xavier
     photo: enzo-januzzi-xavier.jpg
-    role: Iniciação científica
+    role: Undergraduate researcher
     since: 2025
-    topic: Estudo de nanopartículas de cobre e rutênio para redução de óxido nítrico
+    topic: Copper and ruthenium nanoparticles for nitric oxide reduction
     funding: CNPEM, FAPESP
     lattes: "1031555112242239"
 
 alumni:
   - name: Lanna Emilli Barbosa Lucchetti
-    role: Pós-doutorado (2023) · Doutorado, coorientação (2022)
-    topic: Análise teórica da reação de redução de oxigênio em materiais de carbono modificados com óxidos metálicos
+    role: Postdoc (2023) · PhD, co-supervised (2022)
+    topic: Theoretical analysis of the oxygen reduction reaction in carbon materials modified with metal oxides
     place: UFABC
 
   - name: Paula Jimena Fonseca Cala
-    role: Mestrado, coorientação (2023)
+    role: Master's, co-supervised (2023)
     topic: Prediction of the surface tension of hydrocarbons with regressors based on machine learning techniques
     place: UFC
 
   - name: Lucas Bandeira
-    role: Mestrado, coorientação (2022)
-    topic: Métodos de processamento de linguagem natural aplicados a problemas relacionados à redução de CO2/CO
+    role: Master's, co-supervised (2022)
+    topic: Natural language processing methods applied to CO2/CO reduction problems
     place: UFABC
 
   - name: Paulo Henrique A. dos Santos
-    role: Iniciação científica (2025)
-    topic: Processamento de linguagem natural para extração de dados de reações de redução de CO2
+    role: Undergraduate research (2025)
+    topic: Natural language processing for extracting CO2 reduction reaction data
     place: CNPEM
 
   - name: Pedro Henrique Sophia
-    role: Iniciação científica (2024)
+    role: Undergraduate research (2024)
     topic: "Realistic molecular dipole prediction: an ab initio/machine learning approach"
     place: Ilum
 
   - name: Eduardo Teixeira de Aguiar Veiga
-    role: Iniciação científica (2022)
-    topic: Estudo de interfaces óleo/salmoura por meio de dinâmica molecular clássica
+    role: Undergraduate research (2022)
+    topic: Oil/brine interfaces studied with classical molecular dynamics
     place: UFABC
 
   - name: Ana Carolina Fonseca de Abreu
-    role: Iniciação científica (2022)
-    topic: Dinâmica molecular aplicada a combustíveis
+    role: Undergraduate research (2022)
+    topic: Molecular dynamics applied to fuels
     place: UFABC
 
   - name: Pedro Henrique Donassan de Macedo
-    role: Iniciação científica (2021)
-    topic: Informática de materiais aplicada à indústria de petróleo
+    role: Undergraduate research (2021)
+    topic: Materials informatics applied to the oil industry
     place: UFABC
 
   - name: Pedro Victor Marcelino Jordao Motta
-    role: Iniciação científica (2020)
-    topic: Propriedades mecânicas de nanotubos híbridos concêntricos de carbono e nitreto de boro
+    role: Undergraduate research (2020)
+    topic: Mechanical properties of concentric hybrid carbon and boron nitride nanotubes
     place: UFABC
 
   - name: Juda Przemyslaw
-    role: Iniciação científica (2016)
+    role: Undergraduate research (2016)
     topic: Multiscale simulation of cement mechanical properties
     place: EPFL
 
   - name: Samihr Valentim Hermes
-    role: Iniciação científica (2013)
-    topic: Estudo atomístico de nanotubos de cimento
+    role: Undergraduate research (2013)
+    topic: Atomistic study of cement nanotubes
     place: UFABC
