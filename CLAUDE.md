@@ -21,9 +21,13 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
 
 ## Tarefas comuns
 
-- **Novo artigo:** inserir um bloco no topo de `_data/publications.yml`.
-- **Números do Google Scholar** (publicações, citações, h-index, i10): fixos em `research.md`,
-  bloco `stats`; o James informa os valores atuais.
+- **Novo artigo:** inserir um bloco no topo de `_data/publications.yml` (valores com ": "
+  entre aspas). Aceitos sem DOI entram sem `url`, com venue "Revista, accepted (ano)".
+- **Sempre que adicionar artigo, atualizar o resumo de produção** (`research.md`, bloco `stats`):
+  - Publicações: automático (tamanho de `_data/publications.yml`).
+  - Citações, h-index, i10: abrir o perfil do Google Scholar (`site.scholar`) pelo plugin do
+    Chrome, ler a tabela `#gsc_rsb_st` (coluna "All") e atualizar os números e a data em
+    "checked AAAA-MM-DD".
 - **Nova disciplina:** criar `_courses/<slug-sem-acento>.md` copiando o front matter de
   outra; material do Drive via includes.
 - **Pré-visualizar:** `bundle exec jekyll serve` (requer `ruby-dev` e `bundle install`).

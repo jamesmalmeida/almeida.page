@@ -27,13 +27,13 @@ My codes are available at my GitHub page: [github.com/jamesmalmeida]({{ site.git
 ## Production Summary
 
 <div class="stats">
-  <div><strong>45</strong><span>Publications</span></div>
+  <div><strong>{{ site.data.publications | size }}</strong><span>Publications</span></div>
   <div><strong>637</strong><span>Citations</span></div>
   <div><strong>14</strong><span>h-index</span></div>
   <div><strong>21</strong><span>i10-index</span></div>
 </div>
 
-Source: [Google Scholar]({{ site.scholar }})
+Citations and indices: [Google Scholar]({{ site.scholar }}), checked 2026-10-27.
 
 ## Publications
 
