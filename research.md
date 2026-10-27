@@ -20,6 +20,10 @@ All my research involves molecular simulations, by means of both classical molec
 - Nanofluidics
 - Electronic transport
 
+## Group
+
+Meet the students and postdocs I supervise, current and former, on the [Group]({{ '/group' | relative_url }}) page.
+
 ## Codes
 
 My codes are available at my GitHub page: [github.com/jamesmalmeida]({{ site.github }})

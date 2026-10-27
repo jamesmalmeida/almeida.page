@@ -1,0 +1,128 @@
+# Membros do grupo. Fonte inicial: Currículo Lattes (09/2026).
+# photo: arquivo em assets/img/group/ (opcional; sem foto aparecem as iniciais).
+# lattes: só o número do currículo.
+
+current:
+  - name: Antonio Augusto Alves Junior
+    role: Pós-doutorado
+    since: 2024
+    topic: Desenvolvimento da MIDb ([midb.cloud](http://www.midb.cloud))
+    funding: CNPEM, CNPq
+
+  - name: Leonardo Bitencourt Vetritti
+    role: Pós-doutorado
+    since: 2026
+    topic: Processamento de linguagem natural para pontos quânticos de carbono
+    funding: UFABC, CNPq
+    lattes: "4283139554816672"
+
+  - name: Arthur da Silva Sousa Santos
+    role: Doutorado
+    since: 2024
+    topic: Processamento de linguagem natural aplicado a óxidos de alta entropia
+    funding: UFABC, FAPESP
+    note: Mestrado (coorientação) concluído em 2023
+    lattes: "3598199190541057"
+
+  - name: Carlos Eduardo Gonçalves Santos
+    role: Doutorado
+    since: 2025
+    topic: Simulações computacionais de materiais para catálise eletroquímica e otimização via aprendizado de máquina ativo
+    funding: UFABC, FAPESP
+    note: Iniciação científica concluída em 2025
+    lattes: "8783064005868869"
+
+  - name: Duanny Silva Onório
+    role: Doutorado
+    since: 2025
+    topic: Aprendizado ativo para o desenvolvimento de novas nanopartículas metálicas, com aplicações em eletrocatálise
+    funding: UFABC, FAPESP
+    lattes: "4533444998489866"
+
+  - name: Maria Eduarda de Oliveira Crist
+    role: Mestrado
+    since: 2026
+    topic: Dinâmica e propriedades de soluções aquosas confinadas através de potenciais interatômicos de aprendizado de máquina
+    funding: UFABC, CAPES
+    lattes: "4966263380247990"
+
+  - name: André de Araújo Caetano
+    role: Mestrado (coorientação)
+    since: 2026
+    topic: Modelagem de emulsões de nanocelulose
+    funding: UFABC, CAPES
+    note: Orientadora principal, Juliana Bernardes (LNNano/CNPEM)
+    lattes: "2934694795422790"
+
+  - name: Enzo Januzzi Xavier
+    role: Iniciação científica
+    since: 2025
+    topic: Estudo de nanopartículas de cobre e rutênio para redução de óxido nítrico
+    funding: CNPEM, FAPESP
+    lattes: "1031555112242239"
+
+alumni:
+  - name: Lanna Emilli Barbosa Lucchetti
+    role: Pós-doutorado (2023) · Doutorado, coorientação (2022)
+    topic: Análise teórica da reação de redução de oxigênio em materiais de carbono modificados com óxidos metálicos
+    place: UFABC
+
+  - name: Paula Jimena Fonseca Cala
+    role: Mestrado, coorientação (2023)
+    topic: Prediction of the surface tension of hydrocarbons with regressors based on machine learning techniques
+    place: UFC
+
+  - name: Lucas Bandeira
+    role: Mestrado, coorientação (2022)
+    topic: Métodos de processamento de linguagem natural aplicados a problemas relacionados à redução de CO2/CO
+    place: UFABC
+
+  - name: Paulo Henrique A. dos Santos
+    role: Iniciação científica (2025)
+    topic: Processamento de linguagem natural para extração de dados de reações de redução de CO2
+    place: CNPEM
+
+  - name: Pedro Henrique Sophia
+    role: Iniciação científica (2024)
+    topic: "Realistic molecular dipole prediction: an ab initio/machine learning approach"
+    place: Ilum
+
+  - name: Anailson Santos Silva
+    role: Iniciação científica (2023)
+    topic: Base de dados de referências espectroscópicas e cristalográficas para o SIRIUS
+    place: CNPEM
+
+  - name: Francis Germánico Villacrés Merchán
+    role: Iniciação científica (2023)
+    topic: Fluxo automatizado de simulações espectroscópicas e cristalográficas para o SIRIUS
+    place: CNPEM
+
+  - name: Eduardo Teixeira de Aguiar Veiga
+    role: Iniciação científica (2022)
+    topic: Estudo de interfaces óleo/salmoura por meio de dinâmica molecular clássica
+    place: UFABC
+
+  - name: Ana Carolina Fonseca de Abreu
+    role: Iniciação científica (2022)
+    topic: Dinâmica molecular aplicada a combustíveis
+    place: UFABC
+
+  - name: Pedro Henrique Donassan de Macedo
+    role: Iniciação científica (2021)
+    topic: Informática de materiais aplicada à indústria de petróleo
+    place: UFABC
+
+  - name: Pedro Victor Marcelino Jordao Motta
+    role: Iniciação científica (2020)
+    topic: Propriedades mecânicas de nanotubos híbridos concêntricos de carbono e nitreto de boro
+    place: UFABC
+
+  - name: Juda Przemyslaw
+    role: Iniciação científica (2016)
+    topic: Multiscale simulation of cement mechanical properties
+    place: EPFL
+
+  - name: Samihr Valentim Hermes
+    role: Iniciação científica (2013)
+    topic: Estudo atomístico de nanotubos de cimento
+    place: UFABC
