@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<p class="breadcrumb"><a href="{{ '/courses-disciplinas' | relative_url }}">Courses (Disciplinas)</a></p>
+<h1>{{ page.title }}</h1>
+<p class="lede">{{ page.period }}</p>
+{% if page.image %}<img class="banner" src="{{ '/assets/img/' | append: page.image | relative_url }}" alt="">{% endif %}
+
+{{ content }}

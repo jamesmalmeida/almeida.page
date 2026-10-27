@@ -1,0 +1,10 @@
+{% assign p = include.pub %}
+<article class="pub">
+  {% if p.image %}<img class="pub-img" src="{{ '/assets/img/' | append: p.image | relative_url }}" alt="" loading="lazy">{% endif %}
+  <div class="pub-body">
+    <h4 class="pub-title">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h4>
+    <p class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    <p class="pub-venue">{{ p.venue }}</p>
+    {% if p.abstract %}<details><summary>Abstract</summary><p>{{ p.abstract }}</p></details>{% endif %}
+  </div>
+</article>

@@ -1,0 +1,1062 @@
+# Lista de publicações (mais recentes primeiro).
+# Para adicionar um artigo, copie um bloco e preencha os campos.
+# image: nome do arquivo em assets/img/ (opcional). Use **...** para destacar seu nome.
+
+- title: Interpretable Machine Learning of Nanoparticle Stability through Topological Layer Embeddings
+  authors: Felipe Hawthorne, Leandro Seixas, **James M. Almeida**, Cristiano F. Woellner, Raphael M. Tromer
+  venue: The Journal of Physical Chemistry A, 130, 5293-5307 (2026)
+  year: 2026
+  url: https://doi.org/10.1021/acs.jpca.6c01508
+  abstract: >-
+    The stability of chemically complex nanoparticles is governed by an immense configurational space
+    arising from heterogeneous local atomic environments across surface and interior regions. Efficiently
+    identifying low-energy configurations within this space remains a central challenge for first-principles-based
+    materials discovery, particularly when the available reference data are limited. Here, we introduce
+    a data-efficient and physically interpretable machine-learning framework based on a fragmented, layer-resolved
+    descriptor that explicitly decomposes nanoparticles into surface, intermediate, and core environments
+    using a topology-driven definition. This representation preserves a compact and fixed feature dimensionality
+    while retaining spatial resolution, enabling controlled emphasis on different regions of the nanoparticle
+    through physically motivated weighting schemes. Coupled with gradient-boosted decision-tree models
+    and a ranking-based learning strategy, the proposed framework enables accurate identification of the
+    most stable nanoparticle configurations using only a few hundred density functional theory reference
+    calculations. Ranking performance metrics demonstrate near-saturation of correlation, high top-k recall,
+    and rapidly vanishing regret at moderate training set sizes, highlighting the strong data efficiency
+    of the approach. Beyond predictive performance, layer-weighting and SHAP-based interpretability analyses
+    reveal how surface segregation, coordination topology, and local chemical disorder contribute differently
+    to stability across spatial regions of the nanoparticle. The framework is system and code-agnostic,
+    requiring only atomic coordinates, chemical species, and a scalar target energy, and is therefore
+    directly transferable to other multicomponent nanostructures and to alternative first-principles or
+    machine-learning energy methods.
+
+- title: Machine learning assisted prediction and synthesis of new high-entropy fluorite oxide
+  authors: >-
+    Arthur da Silva Sousa Santos, **James Moraes de Almeida**, Fabiane de Jesus Trindade, Marissol Rodrigues
+    Felez, Larissa da Silva Marques, Daniel Zanetti de Florio
+  venue: Open Ceramics, Volume 26, 100982 (2026)
+  year: 2026
+  url: https://www.sciencedirect.com/science/article/pii/S2666539526000787
+  image: machine-learning-assisted-prediction-and-synthesis-b27e6b.jpg
+  abstract: >-
+    High-entropy oxides are a novel class of materials with promising applications in energy conversion
+    and storage; however, their rational design remains challenging due to the immense compositional space.
+    Here, we propose a machine-learning-based methodology to design stable, single-phase HEOs. We trained
+    predictive models to identify candidate fluorite-structured compositions. The ensemble achieved reasonable
+    performance in a six-class classification task, as evaluated using nested stratified cross-validation
+    and external validation (weighted-average F1-scores of 77% and 70%, respectively). We further applied
+    SHAP analysis to assess the physical relevance of the predictors. Experimentally, we synthesized Ce0.2La0.2Nd0.2Mg0.2Al0.2O.
+    X-ray diffraction confirmed this prediction, and transmission electron microscopy (TEM) combined with
+    selected-area electron diffraction (SAED) validated the phase assignment. Overall, these results demonstrate
+    that machine learning is a powerful approach to navigate the complex HEO compositional landscape and
+    accelerate the discovery of materials with targeted properties.
+
+- title: >-
+    Rational Design of Single-Phase High Entropy Oxides via Large Language Model Data Mining and Explainable
+    Machine Learning
+  authors: >-
+    Arthur da Silva Sousa Santos, Elena Stojanovska, Antonio Augusto Alves Junior, Amauri Jardim de Paula,
+    Daniel Zanetti de Florio, and **James Moraes de Almeida**
+  venue: Journal of Chemical Information and Modeling, 66, 9, 5234–5248 (2026)
+  year: 2026
+  url: https://pubs.acs.org/doi/full/10.1021/acs.jcim.6c00752
+  image: rational-design-of-single-phase-high-entropy-oxide-0c0aa6.png
+  abstract: >-
+    The rational design of high-entropy oxides (HEOs) is currently hindered by the scarcity of structured
+    property data in the scientific literature. In this work, we present an end-to-end materials informatics
+    framework that couples Large Language Model (LLM) data mining with interpretable machine learning
+    to predict single-phase stability in HEOs. We deployed agents based on gpt-oss-120b to extract compositions,
+    phases, and synthesis methods from unstructured scientific abstracts. Combined with regular-expression
+    routines, the LLM-based agent achieved an accuracy of 96\% in database generation despite the complexity
+    of the task, including on-the-fly inference of relative cation proportions. Subsequently, a range
+    of machine-learning models was trained in an exploratory multi-class classification setting to distinguish
+    canonical HEO crystal structures using several variants of the primary databases obtained by combining
+    different feature subsets. For this task, an XGBoost classifier achieved an F\textsubscript{1}-score
+    of 86\% in a seven-class classification problem, and the best-performing database variant combined
+    primary and statistical features. This optimal database representation was then used to train a neural-network
+    binary classifier to distinguish perovskite from non-perovskite compositions, achieving 97.9\% classification
+    accuracy on the test set, whereas the Goldschmidt tolerance factor reached only 67.3\% on the same
+    data. These results indicate that the proposed methodology can support the design of HEO compositions
+    with target properties and substantially outperforms traditional descriptor-based approaches. Furthermore,
+    SHAP (SHapley Additive exPlanations) analysis revealed that high-entropy perovskite phase stability
+    is governed by a critical interplay between geometric factors, such as the sum of cation radii, and
+    electronic descriptors, including Sanderson electronegativity and atomization enthalpy. Overall, these
+    findings demonstrate that LLM-driven data mining can overcome data bottlenecks and enable the discovery
+    of physical design rules for complex multicomponent ceramics.
+
+- title: Iron oxyhydroxide as water carrier to the Earth's mantle
+  authors: >-
+    Carolina Camarda, Fernanda Gervasoni, Tiago Jalowitzki, Francisco M. C. da Silva, Antonio C. Piccino-Neto,
+    Paola Ferraz, João F.G.A. Oliveira, Eduardo X. Miqueles, Nathaly L. Archilha, Igor Torquato, **James
+    M. Almeida**, Daniel G. Cedeño, Sebastião W. da Silva, Reinhardt A. Fuck, Hélio C. N. Tolentino
+  venue: Scientific Reports, 16, 23034 (2026)
+  year: 2026
+  url: https://doi.org/10.1038/s41598-026-46683-8
+  abstract: >-
+    The discovery of new mineral phases capable of transporting water into the Earth's mantle via subduction
+    zones is essential for understanding the deep Earth water cycle and its influence on mantle dynamics.
+    Recent experimental and computational studies have proposed that certain hydrated oxyhydroxides may
+    remain stable under deep mantle conditions, particularly within cold subducting slabs. Here, we report
+    an advanced synchrotron multi-technique study on a natural complex iron oxyhydroxide mineral preserved
+    within a Juína diamond, which may offer new evidence on water transport via cold subducted slabs and
+    highlights the potential role of iron oxyhydroxides as carriers of volatiles into Earth's interior.
+
+- title: >-
+    Interfacial stabilization mechanism in one-step W/O/W multiple emulsions: The role of cellulose nanofibrils
+    and oleic acid
+  authors: >-
+    Maria C.S. Oliveira, Caroline E.P. Silva, Elisa S. Ferreira, **James M. Almeida**, Juliana S. Bernardes
+  venue: Food Hydrocolloids, 178, 112665 (2026)
+  year: 2026
+  url: https://doi.org/10.1016/j.foodhyd.2026.112665
+  image: interfacial-stabilization-mechanism-in-one-step-w--658996.jpg
+  abstract: >-
+    The multiphase structure and large interfacial area of multiple emulsions have driven increasing interest
+    in their use in the pharmaceutical, cosmetics, and food industries. However, the presence of two thermodynamically
+    unstable interfaces remains a challenge that hinders their broader application. Typically, the production
+    of multiple emulsions requires large amounts of synthetic emulsifiers and a two-step preparation process.
+    Here, we developed novel almond oil W1/O/W2 multiple emulsions in one step by combining cellulose
+    nanofibrils (CNFs) and oleic acid as bio-based emulsifiers. Cationic or anionic cellulose nanofibrils
+    (CNFs), with average widths of about 2 nm, acted as Pickering stabilizers at the O/W2 interface, producing
+    oil droplets with diameters in the tens of micrometers. The internal W1/O emulsion, composed of water
+    droplets a few micrometers in size, was stabilized by the naturally occurring oleic acid in the oil
+    phase. Molecular dynamics simulations showed that increasing oleic acid content reduces the interfacial
+    tension from 28 to 19 mN m−1. Emulsions prepared with mineral oil as an alternative oil phase did
+    not result in multiple emulsion formation, confirming the essential role of oleic acid in stabilizing
+    the W1/O interface. Additionally, the stability of multiple emulsions can be tailored by the type
+    of CNF, as electrostatic repulsion between the negatively charged CNFs and oleic acid enhances the
+    migration of oleic acid to the W1/O interface, promoting stability for over 60 days. These results
+    demonstrate the capability of functionalized CNFs and oleic acid in the design of multiple emulsions
+    using a practical method, with possible use in food and cosmetic formulations.
+
+- title: >-
+    Large-Scale Meta-Analysis of Nanomaterials Toxicity Based on Natural Language Processing of Scientific
+    Articles
+  authors: >-
+    Amauri J. Paula, Romana Petry, **James M. Almeida**, André A. Caetano, José Sales, Odair P. Ferreira,
+    Diego S. T. Martinez, Henry J. Kobs, Andreia F. Faria
+  venue: ACS Applied Nano Materials, 9, 1, 28–44 (2026)
+  year: 2026
+  url: https://doi.org/10.1021/acsanm.5c05119
+  image: large-scale-meta-analysis-of-nanomaterials-toxicit-17c3bb.png
+  abstract: >-
+    Natural language processing (NLP) pipelines can mine the nanotoxicology literature at a scale and
+    resolution that cannot be achieved by manual curation. Here, we established a NLP pipeline that coupled
+    topic modeling and end point-specific extraction LLM prompts to convert ∼106 sentences extracted from
+    abstracts of scientific articles into a structured knowledge base containing 13 nanotoxicology features.
+    The pipeline is capable of analyzing and extracting nanomaterial descriptors such as size, ζ potential,
+    and surface area, along with biological end points such as minimum inhibitory concentration (MIC),
+    minimum bactericidal concentration (MBC) and lethal concentration 50% (LC50). Statistical convergence
+    across multiple quantitative end points - MIC, MBC, microbial log reduction, and biofilm killing efficiency
+    - shows that Ag-based nanomaterials are the most potent antimicrobial agents, showing lower MIC and
+    MBC than ZnO, TiO2 and Au analogs. This trend was also observed for individual pathogens such as Escherichia
+    coli and Staphylococcus aureus. Most nanomaterials are within 1 to 100 nm, with nanoparticles featured
+    in >80% of the studies. Although nanomaterials <50 nm often produce the lowest MIC and LC50, toxicity
+    within a single size class spans orders of magnitude, underscoring the influence of surface chemistry,
+    coatings, and colloidal behavior. In addition, adverse reproductive effects in Caenorhabditis elegans
+    and Daphnia magna, and developmental abnormalities in Danio rerio, are predominantly related to Ag
+    and TiO2. In general, our automated data extraction and the curation strategy transforms disparate
+    literature into a machine-readable knowledge base that paves the way for data-driven predictions of
+    nanomaterial hazards.
+
+- title: Por que o céu é azul? Um experimento sobre espalhamento Rayleigh
+  authors: >-
+    Izaque Junior Oliveira Silva, Ana Luiza Poletto Loss, Ana Luz Pereira Mendes, José Victor da Silva
+    Izidorio, Daniel Bravin Martins, Mayllon Emmanoel Pequeno Santos Silva, Davi José Araújo Pereira,
+    Marco Túlio Lima Rodrigues, Yasmin Barbosa Shimizu, Duanny Silva Onório, Alessandro de Souza Mourato,
+    Valéria Spolon Marangoni, Leandro Nascimento Lemos, Leandro Merces, Natasha Fioretto Aguero, **James
+    Moraes de Almeida**
+  venue: Revista Brasileira de Ensino de Física, 48, e20250171 (2026)
+  year: 2026
+  url: https://doi.org/10.1590/1806-9126-RBEF-2025-0171
+  abstract: >-
+    We present a proposed activity regarding the Rayleigh scattering phenomenon, explaining why the sky
+    is blue. Milk-in-water suspensions were used, illuminated by smartphone light sources. Scattering
+    quantification was performed using Arduino-based RGB sensors, enabling real-time detection of light
+    transmitted through the suspension. We observed lower intensity in the blue component and higher intensity
+    in the red component, reproducing the characteristic effect of a sunset. Furthermore, this activity
+    can be conducted at various levels, ranging from a qualitative approach based on visual observation
+    to an automated measurement process using the code provided in this study. Additionally, educators
+    can challenge students to develop their own code. Therefore, this experiment aims to spark learner
+    interest in an everyday topic, facilitating the understanding of complex optical phenomena within
+    an interdisciplinary learning context. The implementation proved successful, as evidenced by the students'
+    spontaneous presentation of the activity at outreach events and the development of the automation
+    code for the experiment described in this work.
+
+- title: Adhesion performance from nano and molecular — To macro insights for bio-based adhesives
+  authors: >-
+    Juliana Martins da Silva, Pedro Ivo Cunha Claro, Romana Petry, **James Moraes de Almeida**, Jefferson
+    Bettini, Marcos Vinicius Lorevice, Adalberto Fazzio, Rubia Figueredo Gouveia
+  venue: Chemical Engineering Journal, 523, 1, 168732 (2025)
+  year: 2025
+  url: https://www.sciencedirect.com/science/article/pii/S1385894725095749
+  image: adhesion-performance-from-nano-and-molecular-to-ma-4c1f86.jpg
+  abstract: >-
+    Bio-based adhesives are achieving attention due to their sustainability characteristics. However,
+    the diversity of renewable feedstocks, combined with several approaches to top-down the biomass for
+    creating an on-demand adhesive is still a substantial challenge. Here, we developed a bio-based adhesive
+    suitable for versatile substrates, including underwater applications. The composition is based on
+    a simple water-based colloidal mixture consisting of lignin and natural rubber latex (NRL). State
+    of art analysis and theoretical approaches provided a comprehensive elucidation regarding the interactions
+    at nano-molecular scale, revealing that the interactions between lignin and NRL were energetically
+    favorable and driven by hydrogen bonds and van der Waals forces. Several substrates were pressure-adhered
+    using the optimized adhesive formulation, demonstrating excellent adhesion properties, outperforming
+    neat NRL. Furthermore, the macro prospective replicated the nanoscale-molecular interactions, indicating
+    an optimal extraction route for lignin in the bio-based adhesive. This insight not only provides superior
+    adhesion performance but also highlights a sustainable alternative to petroleum-based adhesives.
+
+- title: Exploring deep learning in phage discovery and characterization
+  authors: >-
+    Monyque Karoline de Paula Silva, Vitória Yumi Uetuki Nicoleti, Barbara da Paixão Perez Rodrigues,
+    Ademir Sergio Ferreira Araujo, Joel Henrique Ellwanger, **James Moraes de Almeida**, Leandro Nascimento
+    Lemos
+  venue: Virology, 609, 110559 (2025)
+  year: 2025
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0042682225001722
+  image: exploring-deep-learning-in-phage-discovery-and-cha-590faf.jpg
+  abstract: >-
+    Bacteriophages, or bacterial viruses, play diverse ecological roles by shaping bacterial populations
+    and also hold significant biotechnological and medical potential, including the treatment of infections
+    caused by multidrug-resistant bacteria. The discovery of novel bacteriophages using large-scale metagenomic
+    data has been accelerated by the accessibility of deep learning (Artificial Intelligence), the increased
+    computing power of graphical processing units (GPUs), and new bioinformatics tools. This review addresses
+    the recent revolution in bacteriophage research, ranging from the adoption of neural network algorithms
+    applied to metagenomic data to the use of pre-trained language models, such as BERT, which have improved
+    the reconstruction of viral metagenome-assembled genomes (vMAGs). This article also discusses the
+    main aspects of bacteriophage biology using deep learning, highlighting the advances and limitations
+    of this approach. Finally, prospects of deep-learning-based metagenomic algorithms and recommendations
+    for future investigations are described.
+
+- title: Charge Effects on the Adsorption of Octanoic Acid and Octanoate at Carbonates
+  authors: >-
+    **James Moraes de Almeida**, Bruno Fedosse Zornio, Alvaro David Torrez Baptista, and Caetano Rodrigues
+    Miranda
+  venue: ACS Omega, 10, 30, 33959–33964 (2025)
+  year: 2025
+  url: https://pubs.acs.org/doi/full/10.1021/acsomega.5c06363
+  image: charge-effects-on-the-adsorption-of-octanoic-acid--cf8d46.jpg
+  abstract: >-
+    In this work, we investigate the adsorption behavior of protonated and deprotonated acids on carbonate
+    surfaces, employing density functional theory (DFT) simulations and the self-consistent potential
+    correction (SCPC) for the charged deprotonated acid. By comparing the coadsorption models with the
+    SCPC method, we have observed significant differences in the adsorption energies, indicating that
+    coadsorption underestimates the stability of the acid–carbonate interactions, even leading to changes
+    from favorable to unfavorable adsorption on magnesites. Our study highlights the distinct chemical
+    interactions of protonated and deprotonated acids with carbonate surfaces, revealing a more covalent
+    bonding nature for protonated acids and a predominantly ionic character for deprotonated acids. Hence,
+    we highlight the importance of employing charge correction methods, such as the SCPC, for a more accurate
+    representation of the adsorption of charged molecules on mineral surfaces, which could be extended
+    to other systems.
+
+- title: Enhancing catalyst activity of two-dimensional CN through doping for the hydrogen evolution reaction
+  authors: >-
+    Bruno Ipaves, João F. Justo, **James M. de Almeida**, Lucy V. C. Assali, Pedro Alves da Silva Autreto
+  venue: ACS Omega, 10, 38, 44248–44259 (2025)
+  year: 2025
+  url: https://pubs.acs.org/doi/full/10.1021/acsomega.5c05773
+  image: enhancing-catalyst-activity-of-two-dimensional-cn--4a102d.jpg
+  abstract: >-
+    This study investigates the structural, electronic, and catalytic properties of pristine and doped
+    C4N2 nanosheets as potential catalysts for the hydrogen evolution reaction (HER). The pristine C36N18
+    nanosheets exhibit limited HER activity, primarily due to high positive Gibbs free energies (>2.2
+    eV). We explored doping it with B, Si, or P atoms at the nitrogen site to enhance catalytic performance.
+    Among these systems, B-doped C36N17 nanosheets exhibit the most promising catalytic activity, with
+    a Gibbs free energy close to zero (≈−0.2 eV), indicating efficient hydrogen adsorption. Band structure,
+    projected density of states (PDOS), charge density, and Bader charge analyses reveal significant changes
+    in the electronic environment due to doping. Although stacking configurations (AA′A″ and ABC) have
+    a minimal effect on catalytic performance, doping, particularly with B, substantially alters the electronic
+    structure, thus optimizing hydrogen adsorption and facilitating an efficient hydrogen evolution reaction.
+
+- title: >-
+    Interaction of graphene oxide with tannic acid: computational modeling and toxicity mitigation in
+    C. elegans
+  authors: >-
+    Romana Petry, **James M. de Almeida**, Francine Côa, Felipe Crasto de Lima, Diego Stéfani T. Martinez,
+    Adalberto Fazzio
+  venue: Beilstein J. Nanotechnol. 2024, 15, 1297–1311 (2024)
+  year: 2024
+  url: https://www.beilstein-journals.org/bjnano/articles/15/105
+  image: interaction-of-graphene-oxide-with-tannic-acid-com-a39652.png
+  abstract: >-
+    Graphene oxide (GO) undergoes multiple transformations when introduced to biological and environmental
+    media. GO surface favors the adsorption of biomolecules through different types of interaction mechanisms,
+    modulating the biological effects of the material. In this study, we investigated the interaction
+    of GO with tannic acid (TA) and its consequences for GO toxicity. We focused on understanding how
+    TA interacts with GO, its impact on the material surface chemistry, colloidal stability, as well as,
+    toxicity and biodistribution using the Caenorhabditis elegans model. Employing computational modeling,
+    including reactive classical molecular dynamics and ab initio calculations, we reveal that TA preferentially
+    binds to the most reactive sites on GO surfaces via the oxygen-containing groups or the carbon matrix;
+    van der Waals interaction forces dominate the binding energy. TA exhibits a dose-dependent mitigating
+    effect on the toxicity of GO, which can be attributed not only to the surface interactions between
+    the molecule and the material but also to the inherent biological properties of TA in C. elegans.
+    Our findings contribute to a deeper understanding of GO’s environmental behavior and toxicity and
+    highlight the potential of tannic acid for the synthesis and surface functionalization of graphene-based
+    nanomaterials, offering insights into safer nanotechnology development.
+
+- title: >-
+    Predictive Modeling of Surface Tension in Chemical Compounds: Uncovering Crucial Features with Machine
+    Learning
+  authors: >-
+    Paula J. F. Cala, Guilherme G. Dariani, Eduardo T. A. Veiga, Pedro H. D. Macedo, Amauri J. Paula,
+    and **James M. Almeida**
+  venue: J. Braz. Chem. Soc. 35, 12, (2024)
+  year: 2024
+  url: https://www.scielo.br/j/jbchs/a/vZpJ8QPhrnPhdmcDrqgcwjQ/?lang=en
+  image: predictive-modeling-of-surface-tension-in-chemical-2de72e.png
+  abstract: >-
+    Surface tension (SFT) can shape the behavior of liquids in industrial chemical processes, influencing
+    variables such as flow rate and separation efficiency. This property is commonly measured with experimental
+    approaches such as Du Noüy ring and Wilhelmy plate methods. Here, we present machine learning (ML)
+    methodologies that can predict the SFT of hydrocarbons. A comparative analysis encompassing k-nearest
+    neighbors, random forest, and XGBoost (extreme gradient boosting) methods was done. Results from our
+    study reveal that XGBoost is the most accurate in predicting hydrocarbon SFT, with a mean squared
+    error (MSE) of 4.65 mN2 m-2 and a coefficient of determination (R2) score of 0.89. The feature importance
+    was evaluated with the permutation feature importance method and Shapley analysis. Enthalpy of vaporization,
+    density, molecular weight and hydrogen content are key factors in accurately predicting SFT. The successful
+    integration of these methodologies holds the potential to impact efficiency in different industry
+    processes.
+
+- title: Revolutionizing ORR Catalyst Design through Computational Methodologies and Materials Informatics
+  authors: Lanna E. B. Lucchetti, **James M. de Almeida** and Samira Siahrostami
+  venue: EES Catalysis, 2, 1037-1058 (2024)
+  year: 2024
+  url: https://pubs.rsc.org/en/content/articlehtml/2024/ey/d4ey00104d
+  image: revolutionizing-orr-catalyst-design-through-comput-a642e5.png
+  abstract: >-
+    Computational approaches, such as density functional theory (DFT) in conjunction with descriptor-based
+    analysis and computational hydrogen electrode, have enabled exploring the intricate interactions between
+    catalyst surfaces and oxygen species allowing for the rational design of materials with optimized
+    electronic structure and reactivity for oxygen reduction reaction (ORR). The identification of active
+    sites and the tuning of catalyst compositions at the atomic scale have been facilitated by computational
+    simulations, accelerating the discovery of promising ORR catalysts. In this contribution, the insights
+    provided by the computational analysis to understand the fundamental reasons behind inherent ORR overpotentials
+    in the experimental reported catalysts are discussed. Various strategies to overcome the limitations
+    in ORR catalysis using computational design are discussed. Several alternative earth-abundant and
+    cost-effective materials suggested by computational guidance to replace platinum-based catalysts are
+    reviewed. The accuracy of DFT and the role of solvent and electrolyte pH are outlined based on the
+    understanding provided by the computational insight. Finally, an overview of recent achievements in
+    employing materials informatics to accelerate catalyst material discovery for ORR is provided. These
+    computational advancements hold great promise for the development of efficient and cost-effective
+    ORR catalysts, bringing us closer to realizing the full potential of fuel cells as efficient electrochemical
+    energy conversion technologies.
+
+- title: >-
+    Experimental and theoretical studies of WO3/Vulcan XC-72 electrocatalyst enhanced H2O2 yield ORR performed
+    in acid and alkaline medium
+  authors: >-
+    João Paulo C. Moura, Lanna E.B. Luchetti, Caio M. Fernandes, Aline B. Trench, Camila N. Lange, Bruno
+    L. Batista, **James M. Almeida**, Mauro C. Santos
+  venue: Journal of Environmental Chemical Engineering, 113182 (2024)
+  year: 2024
+  url: https://www.sciencedirect.com/science/article/abs/pii/S2213343724013125
+  image: experimental-and-theoretical-studies-of-wo3-vulcan-033f8d.jpg
+  abstract: >-
+    The oxygen reduction reaction (ORR) plays a pivotal role in clean energy generation and sustainable
+    chemical production, particularly in the synthesis of hydrogen peroxide (H2O2). In this study, WO3/Vulcan-XC72
+    electrocatalysts have been synthesized and characterized for ORR applications. We assessed the ratio
+    of WO3 to Vulcan-XC72 and investigated the impact of electrolytes pH (covering acidic and alkaline
+    media) on the ORR process. The results revealed that WO3 with a monoclinic crystalline phase and nanoflower-like
+    morphology was successfully synthesized, and confirmed an improvement in surface properties, with
+    an increase in hydrophilicity and superficial oxygenated species. Electrochemical studies showed that
+    WO3/C was the most selective for H2O2 electrogeneration, compared to pure Vulcan-XC72, in both acidic
+    and alkaline media. These results indicate that the ORR on the WO3/C electrocatalyst surface has a
+    pH-dependent mechanism. Using WO3/C GDEs, an accumulation of 862 mg L-1 of H2O2 was achieved after
+    120 min of electrolysis at 100 mA cm-2. The higher selectivity of WO3/C could be related to the presence
+    of more oxygen functional acid species on the catalyst surface and increased hydrophilicity compared
+    to pure Vulcan, as well as a synergistic effect of the WO3 nanoflowers in ORR, confirmed by theoretical
+    calculations. The results reveal that WO3/Vulcan is a promising catalyst for H2O2 electrogeneration
+    via the ORR.
+
+- title: Cerium doped graphene-based materials towards oxygen reduction reaction catalysis
+  authors: Lanna E.B. Lucchetti, Pedro A.S. Autreto, Mauro C. Santos, **James M. de Almeida**
+  venue: Materials Today Communications, 108461 (2024)
+  year: 2024
+  url: https://www.sciencedirect.com/science/article/abs/pii/S2352492824004410?via%3Dihub
+  image: cerium-doped-graphene-based-materials-towards-oxyg-00eca4.jpg
+  abstract: >-
+    With the global transition towards cleaner energy and sustainable processes, the demand for efficient
+    catalysts, especially for the oxygen reduction reaction, has gained attention from the scientific
+    community. This research work investigates cerium-doped graphene-based materials as catalysts for
+    this process with density functional theory calculations. The electrochemical performance of Ce-doped
+    graphene was assessed within the computation hydrogen electrode framework. Our findings reveal that
+    Ce doping, especially when synergized with an oxygen atom, shows improved catalytic activity and selectivity.
+    For instance, Ce doping in combination with an oxygen atom, located near a border, can be selective
+    for the 2-electron pathway. Overall, the combination of Ce doping with structural defects and oxygenated
+    functions lowers the reaction free energies for the oxygen reduction compared to pure graphene, and
+    consequently, might improve the catalytic activity. This research sheds light from a computational
+    perspective on Ce-doped carbon materials as a sustainable alternative to traditional costly metal-based
+    catalysts, offering promising prospects for green energy technologies and electrochemical applications.
+
+- title: >-
+    Hydrogen peroxide electrogeneration from O2 electroreduction: A review focusing on carbon electrocatalysts
+    and environmental applications
+  authors: >-
+    Aline B Trench, Caio Machado Fernandes, João Paulo C Moura, Lanna EB Lucchetti, Thays S Lima, Vanessa
+    S Antonin, **James M de Almeida**, Pedro Autreto, Irma Robles, Artur J Motheo, Marcos RV Lanza, Mauro
+    C Santos
+  venue: Chemosphere, 353, 141456 (2024)
+  year: 2024
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0045653524003497
+  image: hydrogen-peroxide-electrogeneration-from-o2-electr-e78ecb.jpg
+  abstract: >-
+    Hydrogen peroxide (H2O2) stands as one of the foremost utilized oxidizing agents in modern times.
+    The established method for its production involves the intricate and costly anthraquinone process.
+    However, a promising alternative pathway is the electrochemical hydrogen peroxide production, accomplished
+    through the oxygen reduction reaction via a 2-electron pathway. This method not only simplifies the
+    production process but also upholds environmental sustainability, especially when compared to the
+    conventional anthraquinone method. In this review paper, recent works from the literature focusing
+    on the 2-electron oxygen reduction reaction promoted by carbon electrocatalysts are summarized. The
+    practical applications of these materials in the treatment of effluents contaminated with different
+    pollutants (drugs, dyes, pesticides, and herbicides) are presented. Water treatment aiming to address
+    these issues can be achieved through advanced oxidation electrochemical processes such as electro-Fenton,
+    solar-electro-Fenton, and photo-electro-Fenton. These processes are discussed in detail in this work
+    and the possible radicals that degrade the pollutants in each case are highlighted. The review broadens
+    its scope to encompass contemporary computational simulations focused on the 2-electron oxygen reduction
+    reaction, employing different models to describe carbon-based electrocatalysts. Finally, perspectives
+    and future challenges in the area of carbon-based electrocatalysts for H2O2 electrogeneration are
+    discussed. This review paper presents a forward-oriented viewpoint of present innovations and pragmatic
+    implementations, delineating forthcoming challenges and prospects of this ever-evolving field.
+
+- title: >-
+    CO2 Reduction Beyond Copper-Based Catalysts: A Natural Language Processing Review From The Scientific
+    Literature
+  authors: >-
+    Lucas Bandeira, Henrique Ferreira dos Santos, **James Moraes de Almeida**, Amauri Jardim de Paula,
+    Gustavo Martini Dalpian
+  venue: ACS Sustainable Chemistry & Engineering, 12, 11 (2024)
+  year: 2024
+  url: https://pubs.acs.org/doi/10.1021/acssuschemeng.3c06920
+  image: co2-reduction-beyond-copper-based-catalysts-a-natu-d03e5b.jpg
+  abstract: >-
+    Carbon dioxide (CO2) is a prominent greenhouse gas that contributes significantly to global warming.
+    To combat this issue, one strategy is the conversion of CO2 into alcohols and hydrocarbons, which
+    can be used as fuels and chemical feedstocks. Consequently, a substantial volume of scientific literature
+    has been dedicated to investigating different materials and reaction conditions to facilitate the
+    CO2 reduction reaction (CO2RR) into these so-called high-value products. However, the vastness of
+    this literature makes it challenging to stay updated on recent discoveries and review the most promising
+    materials and conditions that have been explored. To address this issue, we applied natural language
+    processing tools to extract valuable data from 7292 published articles in the scientific literature.
+    Our analysis revealed the emergence of new materials such as cesium–lead–bromide perovskites and bismuth
+    oxyhalides that have been recently used in the CO2RR and identified Bi-based catalysts as the most
+    selective for HCOO– production. Furthermore, we gleaned insights into the composition of other elements
+    and materials commonly employed in the CO2RR, their relationship to product distribution, and the
+    prevalent electrolytes used in the CO2 electrochemical reduction. Our findings can serve as a foundation
+    for future investigations in the realm of catalysts for CO2RRs, offering insights into the most promising
+    materials and conditions to pursue further research.
+
+- title: Photostable Ferulic Acid-Loaded Nanoemulsion for Anti-inflammatory Skin Application
+  authors: >-
+    Tielle M. de Almeida, **James M. de Almeida**, Kathiane B. Kudrna, Tatiana Emanuelli, Daiani C. Leite,
+    Clarissa P. Frizzo, Alisson V. Paz, Scheila R. Schaffazick, and Cristiane de B. da Silva
+  venue: ACS Applied Nano Materials, 6, 24, 22807–22817 (2023)
+  year: 2023
+  url: https://pubs.acs.org/doi/abs/10.1021/acsanm.3c03980
+  image: photostable-ferulic-acid-loaded-nanoemulsion-for-a-77837e.png
+  abstract: >-
+    Ferulic acid (FA) is a highly promising phenolic compound known for its pharmacological activities,
+    which include antioxidant, anti-inflammatory, and anticancer properties. However, limited bioavailability
+    and low solubility hinder their therapeutic application. To overcome these challenges, nanocarriers
+    can be designed by using computer simulation studies to enhance performance and stability. Classical
+    molecular dynamics (CMD), widely employed to study interfaces, especially water–oil interfaces, plays
+    a vital role in predicting molecular interactions and guiding the development of more efficient and
+    effective drug delivery systems. Thus, this study aimed to develop FA nanoemulsions containing hazelnut
+    oil (NE-FAHO) or medium-chain triglycerides (NE-FAMCT) with a previous study about the components
+    that constitute the nanoemulsion and interfacial tension by CMD simulation. The FA-loaded nanoemulsions
+    were prepared by the spontaneous emulsification method, and four different concentrations were used:
+    0.5 to 2.0 mg/mL. The nanoemulsions were characterized by measuring their droplet size, zeta potential,
+    pH, FA content, encapsulation efficiency, and morphology. In addition, the stability and photostability
+    of the FA nanoemulsions were evaluated. Analyzing the concentrations tested, NE-FAMCT at 1.5 mg/mL
+    exhibited the best results in terms of characterization and stability, maintaining a content close
+    to 95% for 60 days and providing photoprotection to FA. Furthermore, NE-FAMCT presented controlled
+    release and significant antioxidant effect. Considering the significant FA anti-inflammatory and antioxidant
+    potential, this study may contribute to the future development of topical pharmaceutical formulations
+    aimed at treating skin-related diseases.
+
+- title: >-
+    Synergistic interaction of hyperbranched polyglycerols and cetyltrimethylammonium bromide for oil/water
+    interfacial tension reduction: A Molecular dynamics study
+  authors: >-
+    **James Moraes de Almeida**, Conny Cerai Ferreira, Lucas Bandeira, Renato D. Cunha, Mauricio Domingues
+    Coutinho-Neto, Paula Homem-De-Mello, Ednilsom Orestes, Regina Sandra Veiga Nascimento
+  venue: The Journal of Physical Chemistry B, 127, 43, 9356 (2023)
+  year: 2023
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.3c01707
+  image: synergistic-interaction-of-hyperbranched-polyglyce-bb0fb4.png
+  abstract: >-
+    Applying surfactants to reduce the interfacial tension (IFT) on water/oil interfaces is a proven technique.
+    The search for new surfactants and delivery strategies is an ongoing research area with applications
+    in many fields such as drug delivery through nanoemulsions and enhanced oil recovery. Experimentally,
+    the combination of hyperbranched polyglycerol (HPG) with cetyltrimethylammonium bromide (CTAB) substantially
+    reduced the observed IFT of oil/water interface, 0.9 mN/m, while HPG alone was 5.80 mN/m and CTAB
+    alone IFT was 8.08 mN/m. Previous simulations in an aqueous solution showed that HPG is a surfactant
+    carrier. Complementarily, in this work, we performed classical molecular dynamics simulations on combinations
+    of CTAB and HPG with one aliphatic chain to investigate further the interaction of this pair in oil
+    interfaces and propose the mechanism of IFT decrease. Basically, from our results, one can observe
+    that the IFT reduction comes from a combination of effects that have not been observed for other dual
+    systems: (i) Due to the CTAB-HPG strong interaction, a weakening of their specific and isolated interactions
+    with the water and oil phases occurs. (ii) Aggregates enlarge the interfacial area, turning it into
+    a less ordered interface. (iii) The spread of individual molecules charge profiles leads to the much
+    lower interfacial tension observed with the CTAB+HPG systems.
+
+- title: >-
+    Sodium niobate microcubes decorated with ceria nanorods for hydrogen peroxide electrogeneration: An
+    experimental and theoretical study
+  authors: >-
+    Vanessa S Antonin, Lanna EB Lucchetti, Felipe M Souza, Victor S Pinheiro, João PC Moura, Aline B Trench,
+    **James M de Almeida**, Pedro AS Autreto, Marcos RV Lanza, Mauro C Santos
+  venue: Journal of Alloys and Compounds, 965, 171363 (2023)
+  year: 2023
+  url: https://www.sciencedirect.com/science/article/abs/pii/S092583882302666X
+  image: sodium-niobate-microcubes-decorated-with-ceria-nan-74d751.jpg
+  abstract: >-
+    The present work investigates the catalytic activity of NaNbO3 microcubes decorated with CeO2 nanorods
+    on carbon (1 %, 3 %, 5 %, and 10 % w/w) for H2O2 electrogeneration. The crystalline phases and the
+    morphology of the materials were identified with scanning electron microscopy, transmission electron
+    microscopy, X‐ray diffraction and X-ray Photoelectronic spectroscopy. Contact angle measurements were
+    performed to characterize the hydrophilicity of each material. The H2O2 electrogeneration was assessed
+    by oxygen reduction reaction using the rotating ring-disk electrode technique. Electrochemical characterization
+    results shown an enhancement on the H2O2 electrogeneration by NaNbO3 @CeO2/C-based materials compared
+    to what was obtained with pure Vulcan XC72. The 1 % NaNbO3 @CeO2/C electrocatalyst presented the lower
+    starting potential for the ORR and a 2.3 electron transfer, favoring the 2-electron mechanism and
+    providing a higher H2O2 electrogeneration rate. Also, the enhancement of oxygen-containing functional
+    groups showed the potential to comprehensively tune properties and optimize active sites and, consequently,
+    increases the H2O2 electrogeneration. Density functional theory calculations indicated that NaNbO3
+    and CeO2 surfaces have a similar low theoretical overpotential for this reaction and that CeO2 improves
+    the catalyst facilitating the electron transfer. These results indicate that NaNbO3 @CeO2/C-based
+    electrocatalysts are promising materials for in situ H2O2 electrogeneration.
+
+- title: >-
+    Unravelling Catalytic Activity Trends in Ceria Surfaces toward Oxygen Reduction and Water Oxidation
+    Reactions
+  authors: >-
+    Lanna E. B. Lucchetti, Pedro A. S. Autreto, **James M. de Almeida**, Mauro C. Santos, Samira Siahrostami
+  venue: Reaction Chemistry & Engineering, 8, 1285 (2023)
+  year: 2023
+  url: https://pubs.rsc.org/en/content/articlehtml/2023/re/d3re00027c
+  image: unravelling-catalytic-activity-trends-in-ceria-sur-4a3c49.png
+  abstract: >-
+    Improved catalysts are critical for more environmentally friendly, and long-term oxygen electrochemical
+    reactions. Computational catalysis can provide atomic level information that is critical for optimizing
+    the next generation of electrocatalysts. It has been demonstrated that by varying the exposed planes,
+    the catalytic performance of metallic oxides can be tuned. Herein, we investigate the role of CeO2
+    surface orientations (100), (110), (111), (221), and (331) in enhancing catalytic activity toward
+    various oxygen electrochemical reactions ranging from 4- and 2-electron oxygen reduction reactions
+    (ORR) to 4-, 2- and 1-electron water oxidation reactions (WOR) using density functional theory (DFT)
+    calculations in conjunction with the computational hydrogen electrode. Our results indicate that the
+    CeO2(100) facet is the most promising for 4-electron ORR, with a theoretical limiting potential of
+    0.52 V. We also show that the presence of oxygen vacancies can enhance the 4-electron ORR activity
+    of the CeO2(110) and CeO2(111) surfaces. Besides, CeO2(100) is selective for the 4-electron WOR while
+    CeO2(110) and CeO2(111) are selective for the 2-electron and 1-electron WOR, respectively. Oxygen
+    vacancies shift all the above three facets towards the 4-electron WOR. This work sheds light on the
+    role of different ceria facets in various oxygen electrochemical reactions which is critical for developing
+    better catalysts.
+
+- title: 'Naphthenic Acids Aggregation: The Role of Salinity'
+  authors: >-
+    Renato D Cunha, Livia J Ferreira, Ednilsom Orestes, Mauricio D Coutinho-Neto, **James M de Almeida**,
+    Rogério M Carvalho, Cleiton D Maciel, Carles Curutchet, Paula Homem-de-Mello
+  venue: Computation, 10, 10, 170 (2022)
+  year: 2022
+  url: https://www.mdpi.com/2079-3197/10/10/170
+  image: naphthenic-acids-aggregation-the-role-of-salinity-4c184b.png
+  abstract: >-
+    Naphthenic Acids (NA) are important oil extraction subproducts. These chemical species are one of
+    the leading causes of marine pollution and duct corrosion. For this reason, understanding the behavior
+    of NAs in different saline conditions is one of the challenges in the oil industry. In this work,
+    we simulated several naphthenic acid species and their mixtures, employing density functional theory
+    calculations with the MST-IEFPCM continuum solvation model, to obtain the octanol–water partition
+    coefficients, together with microsecond classical molecular dynamics. The latter consisted of pure
+    water, low-salinity, and high-salinity environment simulations, to assess the stability of NAs aggregates
+    and their sizes. The quantum calculations have shown that the longer chain acids are more hydrophobic,
+    and the classical simulations corroborated: that the longer the chain, the higher the order of the
+    aggregate. In addition, we observed that larger aggregates are stable at higher salinities for all
+    the studied NAs. This can be one factor in the observed low-salinity-enhanced oil recovery, which
+    is a complex phenomenon. The simulations also show that stabilizing the aggregates induced by the
+    salinity involves a direct interplay of Na+ cations with the carboxylic groups of the NAs inside the
+    aggregates. In some cases, the ion/NA organization forms a membrane-like circular structural arrangement,
+    especially for longer chain NAs.
+
+- title: Harvesting of Surfactant-Solubilized Asphaltenes by Magnetic Nanoparticles
+  authors: >-
+    Gabriel FG Toledo, **James M Almeida**, Adrianne MM Brito, Carin CS Batista, Luana S Andrade, Daniele
+    R de Araújo, Marcelo Y Icimoto, S Brochsztain, Iseli L Nantes
+  venue: Energy & Fuels, 36, 19, 11839 (2022)
+  year: 2022
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.energyfuels.2c01989
+  image: harvesting-of-surfactant-solubilized-asphaltenes-b-500313.png
+  abstract: >-
+    Asphaltenes are a severe problem for the oil industry. The high content of aromatic and aliphatic
+    hydrocarbons in asphaltenes poses a challenge for efficient methods of the solubilization and degradation
+    of their components. The main goal of this study was to investigate an efficient and innovative method
+    for asphaltene solubilization with surfactants to produce supramolecular aggregates with affinity
+    by magnetic nanoparticles (Fe3O4) for magnetic separation and degradation. Asphaltene mixed with the
+    cationic surfactant cetyltrimethylammonium bromide (CTAB) was both solubilized in chloroform and the
+    solvent dried with N2 to produce a film that was resuspended in water and formed a stable colloid
+    with asphaltene incorporated in CTAB micelles. The suspensions of CTAB/asphaltene supramolecular aggregates
+    obtained at different surfactant/asphaltene ratios were characterized by dynamic and static light
+    scattering (DLS and SLS) and by electrophoretic mobility for ζ potential determination. CTAB concentrations
+    of 30 and 60 mM produced spherical supramolecular aggregates (SMAs) of size between 100 and 200 nm
+    with polydispersity. The ζ potential of CTAB micelles loaded with asphaltenes increased from +9.17
+    +/– 4.6 to +56.7 +/– 5.8 eV. Electron paramagnetic resonance revealed that asphaltene forms stable
+    free radicals in CTAB micelles. Classical molecular dynamics simulations were also used to study interactions
+    of the functional groups of asphaltenes. The association with CTAB micelles provided the binding affinity
+    of asphaltenes for nanoparticulate magnetite (Fe3O4) and precipitation of the most CTAB content. In
+    this condition, Fe3O4 promoted the degradation of asphaltenes to low molecular mass products. Therefore,
+    incorporation in CTAB micelles is a simple and innovative method contributing to asphaltene removal,
+    degradation, and possible conversion to products with aggregated value.
+
+- title: >-
+    Hyperbranched polyglycerols derivatives as cetyltrimethylammonium bromide nanocarriers on enhanced
+    oil recovery processes
+  authors: >-
+    CC Ferreira, TBG da Silva, ADS Francisco, L Bandeira, RD Cunha, MD Coutinho-Neto, P Homem-de-Mello,
+    **JM de Almeida**, E Orestes, RSV Nascimento
+  venue: Journal of Applied Polymer Science, 139, 9, 51725 (2022)
+  year: 2022
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/app.51725
+  abstract: >-
+    In this work, the efficiency of partially hydrophobized hyperbranched polyglycerols (HPG11 and HPG12)
+    as cetyltrimethylammonium bromide (CTAB) carriers was evaluated to prevent surfactant losses by adsorption
+    on reservoir rocks surface during enhanced oil recovery (EOR) processes. Interactions between surfactant
+    and polymers were studied by conductivity, zeta potential, and particle size measurements showing
+    that complexes were formed between the components. The ability of PG, HPG11, HPG12 and those complexes
+    to reduce the interfacial tension (IFT) was verified and one of the complexes was able to reduce the
+    IFT to values under 1.0 mN/m, suggesting the occurrence of a synergy between the components. Molecular
+    dynamics simulations indicated the preferential sites of interaction between surfactants and HPGs.
+    HPG11:CTAB and HPG12:CTAB complexes' ability to permeate an unconsolidated porous medium and deliver
+    the surfactant at the water–oil interface, increasing oil production, was evaluated through transport
+    and oil displacement tests, and the results showed that the HPG12:CTAB complex led to almost 90% of
+    oil recovery.
+
+- title: Mechanism for enhanced oil recovery from carbonate reservoirs by adding copper ions to seawater
+  authors: >-
+    OD Bernardinelli, BF Zornio, LGTA Duarte, **JM de Almeida**, VALG Vilela, NB Palma-Filho, CY Aoki,
+    EM Ruidiaz, LF Lamas, GB Soares, RV de Almeida, PB Miranda, CR Miranda, E Sabadini
+  venue: Fuel 305, 121605 (2021)
+  year: 2021
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0016236121014861
+  image: mechanism-for-enhanced-oil-recovery-from-carbonate-2e7953.jpg
+  abstract: >-
+    In existing or operating oil fields, enhanced oil recovery (EOR) methods are employed to increase
+    production, which can contribute to meet fossil fuel demand. This research proposes a new EOR method
+    by adding Cu(II) ions into the injected seawater, which shows a significant incremental oil production
+    in carbonate reservoirs. An important remark in this study is the Cu(II) incorporation into the cores,
+    with mineralization of atacamite on the carbonate surface, and copper complexation with the acid fraction
+    of the oil. In addition, we observed oil removal up to the last monolayer on calcite surfaces. Based
+    on these observations and first-principles calculations, we propose an EOR mechanism where the acidic
+    oil desorbs from the rock surface by forming acid-copper complexes that are dragged by the injected
+    fluids. In summary, we propose a simple and cost-effective EOR method with transition metals, which
+    may significantly increase the yield of low-recovery carbonate reservoirs and reduce the environmental
+    impact of exploring new reservoirs.
+
+- title: Assessing the Oxygen Reduction Reaction by a 2-electron Mechanism on Ceria Surfaces
+  authors: LE Lucchetti, **JM de Almeida**, PA da Silva Autreto, MC dos Santos
+  venue: Physical Chemistry Chemical Physics 23, 18580-18587 (2021)
+  year: 2021
+  url: https://pubs.rsc.org/en/content/articlelanding/2021/CP/D1CP03007H
+  image: assessing-the-oxygen-reduction-reaction-by-a-2-ele-8bc43a.gif
+  abstract: >-
+    The 2-electron pathway of the oxygen reduction reaction is an unwanted process in the development
+    of fuel cells. In contrast, it has gained the scientific community's attention due to its importance
+    as a promising way of removing emergent pollutants and endocrine disruptors from water bodies and
+    a more sustainable alternative for large-scale commercial hydrogen peroxide production. Cerium oxide
+    has shown remarkable potential and selectivity experimentally for this mechanism, and its possible
+    applications, exceeding the previous reference materials. In this work, we studied the 2-electron
+    pathway for oxygen reduction on different ceria-cleaving directions (100), (110), (221), and (331)
+    by first principles methods based on density functional theory. Our results show that the (100) surface
+    is the most favorable for reduction, with the (331) crystallographic plane also showing potential
+    for good catalytic activity. This fact could be essential for designing new nanostructures, with higher
+    portions of those planes exposed, for higher catalytic activity.
+
+- title: Probing the dynamics of water over multiple pore scales in cement by atomistic simulations
+  authors: SM Mutisya, **JM de Almeida**, CR Miranda
+  venue: Applied Surface Science, 895, 15, 115429 (2021)
+  year: 2021
+  url: https://doi.org/10.1016/j.apsusc.2021.150426
+  image: probing-the-dynamics-of-water-over-multiple-pore-s-757242.jpg
+  abstract: >-
+    The presence of water in hydrated cement has significant effects on the properties of concrete. However,
+    direct correlation of water with the macroscopic properties of concrete remains a major challenge.
+    In this study, we use molecular dynamics simulations to determine the water dynamical properties in
+    four pore environments of the calcium silicate hydrate (C–S–H) colloid model; interlayer pores, gel
+    pores, connected pores and in the vicinity of a finite disk–like globule particles. It was revealed
+    that the translational and rotational dynamics are decoupled, consequently, the translational dynamics
+    govern the calculated T2 relaxation time at the surface. Based on NMR T2–T2 relaxation investigation,
+    we showed an exchange between 1 and 4 nm connected pores. At short times, the adsorption/desorption
+    of water from a 1 nm pore is limited to the edges, a behavior linked to water sorption hysteresis.
+    The properties of water in the proximity of a finite C–S–H globule and confined in infinite pore models
+    are comparable.
+
+- title: Electronic Structure of Water from Koopmans-Compliant Functionals
+  authors: '**JM de Almeida**, NL Nguyen, N Colonna, W Chen, CR Miranda, A Pasquarello, N Marzari'
+  venue: J. Chem. Theory Comput., 17 (7), 3923–3930 (2021)
+  year: 2021
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00063
+  image: electronic-structure-of-water-from-koopmans-compli-b55e53.gif
+  abstract: >-
+    Obtaining a precise theoretical description of the spectral properties of liquid water poses challenges
+    for both molecular dynamics (MD) and electronic structure methods. The lower computational cost of
+    the Koopmans-compliant functionals with respect to Green’s function methods allows the simulations
+    of many MD trajectories, with a description close to the state-of-art quasi-particle self-consistent
+    GW plus vertex corrections method (QSGW + fxc). Thus, we explore water spectral properties when different
+    MD approaches are used, ranging from classical MD to first-principles MD, and including nuclear quantum
+    effects. We have observed that different MD approaches lead to up to 1 eV change in the average band
+    gap; thus, we focused on the band gap dependence with the geometrical properties of a system to explain
+    such spread. We have evaluated the changes in the band gap due to variations in the intramolecular
+    O–H bond distance and HOH angle, as well as the intermolecular hydrogen bond O···O distance and the
+    OHO angles. We have observed that the dominant contribution comes from the O–H bond length; the O···O
+    distance plays a secondary role, and the other geometrical properties do not significantly influence
+    the gap. Furthermore, we analyze the electronic density of states (DOS), where the KIPZ functional
+    shows good agreement with the DOS obtained with state-of-art approaches employing quasi-particle self-consistent
+    GW plus vertex corrections. The O–H bond length also significantly influences the DOS. When nuclear
+    quantum effects are considered, broadening of the peaks driven by the broader distribution of the
+    O–H bond lengths is observed, leading to a closer agreement with the experimental photoemission spectra.
+
+- title: >-
+    Density Functional Theory Studies of Oxygen Reduction Reaction for Hydrogen Peroxide Generation on
+    Graphene-Based Catalysts
+  authors: LEB Lucchetti, MO Almeida, **JM de Almeida**, PAS Autreto, KM Honorio, MC Santos
+  venue: Journal of Electroanalytical Chemistry, 895, 115429 (2021)
+  year: 2021
+  url: https://www.sciencedirect.com/science/article/pii/S1572665721004550
+  image: density-functional-theory-studies-of-oxygen-reduct-d0be3f.jpg
+  abstract: >-
+    The two-electron pathway of the oxygen reduction reaction has been gaining attention from the scientific
+    community due to its capability of forming radical hydroxyl. In addition, it is a promising way of
+    removing emergent pollutants, like dyes, pharmaceuticals, hormones, pesticides, and endocrine disruptors
+    from water bodies, a very serious problem that currently challenges scientists and grows at a global
+    scale. Theoretical calculations have already guided, over the last decade, the development of better
+    catalysts for the oxygen reduction reaction. However, this mechanism had usually been, until recently,
+    taken as an unwanted process since the preferred route for energy generation and the main focus of
+    these studies is the four-electron pathway. This review summarizes the recent progress on computational
+    calculations from the hydrogen peroxide generation process point of view, specifically focused on
+    carbon-based materials.
+
+- title: Confinement and hydrophilicity effects on geologically relevant fluids in silica nanopores
+  authors: '**JM de Almeida**, CR Miranda'
+  venue: Physical Review Fluids, 5, 083801 (2020)
+  year: 2020
+  url: https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.5.083801
+  abstract: >-
+    Under extreme conditions, such as harsh thermodynamical environment and spatial confinement, fluids
+    can reveal unique properties. In this work, we investigate the effects on the interfacial and transport
+    properties of fluids confined in nanopores that are due to the spatial confinement, surface hydrophilicity,
+    and fluid composition. We perform fully atomistic molecular dynamics of water, brine, oil, and combinations
+    thereof, confined within amorphous silica nanopores with the radius ranging from 1.0 to 2.4 nm. We
+    have also studied the oil infiltration on nanopores previously filled with water or brine, mimicking
+    the natural processes when the oil is geologically formed and infiltrates a porous media. We observe
+    that an adsorbed water/brine layer remains on the surface of the nanopores after the oil infiltration,
+    altering the interaction of the oil with the confining surface and leading to changes of their interfacial
+    tensions and viscosities. The presence of the ions in the brine thickens the adsorbed water layer,
+    preventing the oil from infiltrating the nanopores with 1.0 nm radius. Thus, we have observed a limit
+    on the pore size for oil infiltration for brine-filled pores.
+
+- title: >-
+    Brine–Oil Interfacial Tension Modeling: Assessment of Machine Learning Techniques Combined with Molecular
+    Dynamics
+  authors: A Kirch, YM Celaschi, **JM de Almeida**, CR Miranda
+  venue: ACS Appl. Mater. Interfaces 12, 13, 15837-15843 (2020)
+  year: 2020
+  url: https://pubs.acs.org/doi/10.1021/acsami.9b22189
+  image: brine-oil-interfacial-tension-modeling-assessment--d03206.gif
+  abstract: >-
+    The physical chemistry mechanisms behind the oil–brine interface phenomena are not yet fully clarified.
+    The knowledge of the relation between brine composition and concentration for a given oil may lead
+    to the ionic tuning of the injected solution on geochemical and enhanced oil recovery processes. Thus,
+    it is worth examining the parameters influencing the interfacial properties. In this context, we have
+    combined machine learning (ML) techniques with classical molecular dynamics simulations (MD) to predict
+    oil/brine interfacial tensions (IFT) effectively and compared this process to a linear regression
+    (LR) method. To diversify our data set, we have introduced a new atomistic crude oil model (medium)
+    with 36 different types of hydrocarbon molecules. The MD simulations were performed for mono- and
+    multicomponent (toluene, heptane, Heptol, light, and medium) oil systems interfaced with sulfate and
+    chloride brines with varying cations (Na+, K+, Ca2+, and Mg2+) and salinity concentration. Thus, a
+    consistent IFT data set was built for the ML training and LR fitting at room temperature and pressure
+    conditions, over the feature space considering oil density, oil composition, salinity, and ionic concentrations.
+    On the basis of gradient boosted (GB) algorithms, we have observed that the dominant quantities affecting
+    the IFT are related to the oil attributes and the salinity concentration, and no specific ion dominates
+    the IFT changes. When the obtained LR model was validated against MD and experimental data from the
+    literature, the error varied up to 2% and 9%, respectively, showing a robust and consistent transferability.
+    The combination of MD simulations and ML techniques may provide a fast and cost-effective IFT determination
+    over multiple and complex fluid–fluid and fluid–solid interfaces.
+
+- title: >-
+    From Atoms to Pre-salt Reservoirs: Multiscale Simulations of the Low-Salinity Enhanced Oil Recovery
+    Mechanisms
+  authors: GD da Silva, EF Martins, MA Salvador, ADT Baptista, **JM de Almeida**, CR Miranda
+  venue: Polytechnica 2 (1-2), 30-50 (2019)
+  year: 2019
+  url: https://link.springer.com/article/10.1007/s41050-019-00014-1
+  image: from-atoms-to-pre-salt-reservoirs-multiscale-simul-06530d.jpg
+  abstract: >-
+    The goal of this review paper is two-fold: bringing an updated survey on the literature of the proposed
+    mechanisms behind the low-salinity enhanced oil recovery (EOR) and propose ways to model them based
+    on simulations coupling atomic to reservoir scales. The low salinity water injection (LSWI) presents
+    some advantages over other EOR techniques since it is a cost-effective method, has no inherent environmental
+    damage and does not affect the subsequent stages of crude oil treatment and refinement. The LSWI is
+    particularly interesting for exploration and production on pre-salt carbonate reservoirs. We couple
+    the LSWI mechanisms with molecular modeling methodologies, addressing their use to describe the EOR
+    via LSWI. From the molecular modeling, one can obtain parameters for the large-scale reservoir simulators,
+    thus, improving their accuracy. Therefore, the molecular modeling approaches are complementary tools
+    to optimize the EOR via LSWI. Among all the involved mechanisms on the LSWI, the wettability alteration
+    is pointed out by several authors as the fundamental one, to explain the EOR. However, there are controversies
+    related to its cause: salting-in effect, multi-component ionic exchange, pH alteration, electric double
+    layer expansion, fines migration, limited release of particles and osmotic pressure are among the
+    main proposals. In this sense, several molecular modeling techniques have been explored to foster
+    theories that explain the possible mechanisms and optimize the oil production combining the molecular
+    dynamics simulations and Ab initio calculations with reservoir simulators.
+
+- title: >-
+    Multiscale Coupling between Molecular Simulations and Reservoir Simulator: Geochemical Reactions for
+    Low Salinity Water Injection in Carbonates
+  authors: ADT Baptista, MA Salvador, GD da Silva, EF Martins, **JM de Almeida**, CR Miranda
+  venue: Offshore Technology Conference, OTC-29908-MS (2019)
+  year: 2019
+  url: https://www.onepetro.org/conference-paper/OTC-29908-MS
+  abstract: >-
+    This work, is based on the multiscale coupling between molecular simulations and reservoir simulators,
+    to explore the brine composition for enhanced oil recovery via the low salinity water injection (LSWI)
+    processes. To achieve this goal, molecular simulations were performed, providing physical-chemistry
+    parameters to reservoir simulators and validate the proposed brine compositional model. The key data
+    required within reservoir simulators are related to the chemical reactions, which are occurring due
+    to the LSWI process, such as their free energies, kinetic constants, ionic strengths, chemical activities,
+    and activation energies. To improve the accuracy of this input dataset, the main aqueous phase geochemical
+    reactions were mapped, adsorption energies of hydrocarbons and brine ions on calcite surface were
+    determined and ions-bearing calcium carbonate were evaluated. The calculations were based on the density
+    functional theory (DFT) and classical molecular dynamics (MD) using Quantum-ESPRESSO and LAMMPS codes,
+    respectively. The geochemical reactions that take place at mineral dissolution and ionic release,
+    related to the LWSI process (MgSO4, CaSO4, BaSO4, Na2CO3, and CaCO3), were also determined. The obtained
+    chemical equilibrium showed that the MgSO4 dissolution reaction was favored, while other minerals
+    did not show a similar trend. Adsorption studies of organic the molecules naphthalene and anthracene
+    over different surface sites were performed. The adsorption energies were similar for both molecules,
+    where the most favorable configuration has the rings oriented parallel to the mineral surface. The
+    potential of mean force obtained for brine ion adsorption suggested that there were no barriers for
+    adsorbing Ca2+ and CO32- brine ions on calcite surface. In contrast, the other ions adsorption (Na+
+    and Cl-) have presented higher estimated activation energies. The energetic difference showed that
+    the SO42- incorporation in calcite is more favorable than Mg2+. The Ba2+ showed unfavorable incorporation
+    energy. The thermodynamic properties (free energies, entropies, and heat capacities) were calculated
+    from the vibrational properties. Obtaining such input data by molecular simulations can significantly
+    reduce uncertainties, by increasing the reservoir simulators predictive power, facilitating the optimization
+    and understanding of the processes involved in the injection of low salinity fluids. From these results,
+    the obtained equilibrium constants, free energies and adsorption energies can be used as input data
+    in further reservoir simulators. In addition, it would allow the validation of the proposed model
+    from the understanding of the physical processes underlying LSWI.
+
+- title: >-
+    Uncovering the Mechanisms of Low-Salinity Water Injection EOR Processes: A Molecular Simulation Viewpoint
+  authors: EF Martins, GD da Silva, MA Salvador, ADT Baptista, **JM de Almeida**, CR Miranda
+  venue: Offshore Technology Conference, OTC-29885-MS (2019)
+  year: 2019
+  url: https://www.onepetro.org/conference-paper/OTC-29885-MS
+  abstract: >-
+    In this work, we present a multiscale approach based on first-principles calculations and classical
+    molecular dynamics methods, to investigate the enhanced oil recovery via low-salinity water injection
+    (EOR-LSWI). Salting-in effect, wettability, pH alteration, electrical double layer and the main geochemical
+    reactions involved in the multicomponent ionic exchanges mechanism were analyzed in order to understand
+    their contribution, also to provide an overall phenomenological perspective of the involved phenomena
+    with a proposed feedback control system. The first-principles calculations were based on density functional
+    theory, carry out in the Quantum-ESPRESSO package, to determine the adsorption energies of hydrocarbons
+    (propionic and pentanoic acids and phenol) on calcite (CaCO3) {10.4} surface. In addition, we have
+    obtained the free energy variations for the minerals dissolution processes. The solvent effect was
+    taken into account for the geochemical reactions through a continuum dielectric. The interface between
+    calcite and API brine was investigated through steered classical molecular dynamics, as implemented
+    in the LAMMPs code to evaluate the brine ions adsorption/desorption on calcite surface and characterize
+    the electrostatic environment in the vicinity of the calcite-brine-oil interfaces. Our results showed
+    that the adsorption energies for the deprotonated molecules were lower than the ones for the neutral
+    cases, highlighting the pH effect in the desorption processes. The pH also played a role in the calcite
+    dissolution, since the free energy variation (ΔG) of the dissolution process mediated by H3O+ was
+    lower than the ΔG for the neutral pH process. We found the lowest dissolution ΔG for the MgSO4 mineral
+    (bulk), indicating that Mg2+ and SO42- ions would be abundant in the solution. In contrast, the other
+    minerals exhibit a positive ΔG. Ions adsorption/desorption on calcite are isoergic and suggest an
+    equilibrium between Ca2+ and CO32- ions. In contrast, the Na+ and Cl- ions adsorption were not found
+    to be a spontaneous process. Moreover, the potential of mean force profile for Ca2+ and CO32- ions
+    showed a layered structuring, which indicates that the ion hydration energy is related to the adsorption/desorption
+    process. Such results may contribute to cause-effect understanding of correlations among the mechanisms
+    in EOR-LSWI and help to propose an optimal brine composition to maximize the oil recovery.
+
+- title: Virtual Reality for Visualization of Enhanced Oil Recovery Processes at Nanoscale
+  authors: '**JM de Almeida**, CR Miranda'
+  venue: Offshore Technology Conference, OTC-29899-MS (2019)
+  year: 2019
+  url: https://www.onepetro.org/conference-paper/OTC-29899-MS
+  abstract: >-
+    This work provides an immersive visualization of oil & gas relevant systems and enhanced oil recovery
+    (EOR) processes at the nanoscale by coupling molecular dynamics (MD) simulations with gamming virtual
+    reality (VR) technologies. The main objective is to understand oil/brine/rock interfaces at molecular
+    level and identify the underlying EOR mechanisms at the atomic scale. Within this immersive experience,
+    the user can directly interact and enhance its perception of atomic environment for EOR applications.
+    The experiences cover nano-EOR, nano-IOR and low-salt processes at nanoscale based on MD calculations
+    of nanoparticles at oil-brine interfaces, oil-brine at silica nanopores and calcite-brine-oil interfaces,
+    respectively. The MD simulations are performed with the Lammps package. The visualizations were done
+    with an HTC Vive and Oculus Rift virtual reality headsets with the Nomad VR and Unitymol software.
+    For the Nomad VR, the trajectories are previously saved from a Lammps molecular dynamics simulation,
+    whereas, for the Unitymol, the simulation with Lammps is performed on-the-fly through the iMD (interactive
+    MD) plugin. The user can visualize and navigate through the trajectories using the Nomad VR. Furthermore,
+    the Unitymol also allows the user apply forces on selected molecules on real time during the VR experience.
+    As means of comparison, the visualization was also performed with cell-phone based VR headsets with
+    the Nomad VR application. Our demonstrations show that VR combined with molecular simulations can
+    be an interesting and attractive way to improve the perception of the nanoscale for the general public.
+    Additionally, it is an emergent tool to characterize, improve the understanding and provide molecular
+    insights about nanosystems and the EOR methods, and also to be integrated with on-going digitalization
+    processes within the oil & gas industry.
+
+- title: >-
+    Multilevel Molecular Modeling Approach for a Rational Design of Ionic Current Sensors for Nanofluidics
+  authors: A Kirch, **JM de Almeida**, CR Miranda
+  venue: Journal of chemical theory and computation 14 (6), 3113-3120 (2018)
+  year: 2018
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jctc.8b00073
+  image: multilevel-molecular-modeling-approach-for-a-ratio-15dcf2.gif
+  abstract: >-
+    The complexity displayed by nanofluidic-based systems involves electronic and dynamic aspects occurring
+    across different size and time scales. To properly model such kind of system, we introduced a top-down
+    multilevel approach, combining molecular dynamics simulations (MD) with first-principles electronic
+    transport calculations. The potential of this technique was demonstrated by investigating how the
+    water and ionic flow through a (6,6) carbon nanotube (CNT) influences its electronic transport properties.
+    We showed that the confinement on the CNT favors the partially hydrated Na, Cl, and Li ions to exchange
+    charge with the nanotube. This leads to a change in the electronic transmittance, allowing for the
+    distinguishing of cations from anions. Such an ionic trace may handle an indirect measurement of the
+    ionic current that is recorded as a sensing output. With this case study, we are able to show the
+    potential of this top-down multilevel approach, to be applied on the design of novel nanofluidic devices.
+
+- title: Fresh Molecular Look at Calcite–Brine Nanoconfined Interfaces
+  authors: A Kirch, SM Mutisya, VM Sánchez, **JM de Almeida**, CR Miranda
+  venue: The Journal of Physical Chemistry C 122 (11), 6117-6127 (2018)
+  year: 2018
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b12582
+  image: fresh-molecular-look-at-calcite-brine-nanoconfined-4026f4.gif
+  abstract: >-
+    Calcite–fluid interface plays a central role in geochemical, synthetic, and biological crystal growth.
+    The ionic nature of the calcite surface can modify the fluid–solid interaction and the fluid properties
+    under spatial confinement and can also influence the adsorption of chemical species. We investigate
+    the structure of the solvent and ions (Na, Cl, and Ca) at the calcite–aqueous solution interface under
+    confinement and how such environment modifies the properties of water. To properly investigate the
+    system, molecular dynamics simulations were employed to analyze the hydrogen bond network and to calculate
+    NMR relaxation times. Here, we provide a new insight with additional atomistically detailed analysis
+    by relating the topology of the hydrogen bond network with the dynamical properties in nanoconfinement
+    interfaces. We have shown that the strong geometrical constraints and the presence of ions do influence
+    the hydrogen bond network, resulting in more extended geodesic paths. Hydrogen bond branches connect
+    low to high dynamics molecules across the pore and hence may explain the gluelike mechanical properties
+    observed in the confinement environment. Moreover, we showed that the surface water observed at the
+    calcite interface is characterized by slow transversal spin relaxation time (T2) and highly coordinated
+    water molecules. The physical and electrostatic barrier emerged from the epitaxial ordering of water
+    results in a particular ionic distribution, which can prevent the direct adsorption of a variety of
+    chemical species. The implications of our results delineate important contributions to the current
+    understanding of crystallization and biomineralization processes.
+
+- title: >-
+    Molecular simulations of cement based materials: A comparison between first principles and classical
+    force field calculations
+  authors: SM Mutisya, **JM de Almeida**, CR Miranda
+  venue: Computational Materials Science 138, 392-402 (2017)
+  year: 2017
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0927025617303609
+  image: molecular-simulations-of-cement-based-materials-a--182d0c.jpg
+  abstract: >-
+    The heterogeneity and complexity of the cement structure and processes makes the interpretation of
+    experimental data challenging. Atomistic simulations allow investigations at the atomic level of interactions,
+    thus having the potential to provide complementary information to experiments. In this regard, the
+    investigation of the transferability of the available force fields as well their ability to predict
+    the properties of interest is an important prerequisite. In this work, we compare CLAYFF force field
+    against first principles Density Functional Theory (DFT) calculations focusing on its ability to predict
+    structural, vibrational and thermodynamic properties of cement phases differing in the degree of hydration.
+    The systems studied include tobermorite 9 Å, 11 Å, 14 Å, gypsum, tricalcium aluminate and ettringite.
+    Our results indicate that CLAYFF describes well the lattice parameters within acceptable errors. However
+    for the vibrational properties, there is a significant alteration in the silicate, sulfate, water
+    and OH frequencies in comparison to DFT and experimental results. DFT Bader charge analysis indicate
+    that the charge on the interlayer calcium ions in tobermorite does not change with increase in hydration,
+    implying that the nature inter-atomic bonding within the layers remain unchanged. For the thermodynamic
+    quantities investigated (i.e. Helmholtz free energy, entropy and specific heat), CLAYFF results are
+    in agreement with DFT calculations. Our findings indicate that water enhances the stability of the
+    hydrated phases based on the lower values of the Helmholtz free energy. We demonstrate that CLAYFF
+    can capture consistently the thermodynamic properties of cement phases.
+
+- title: >-
+    Molecular Dynamics Simulations of Water Confined in Calcite Slit Pores: An NMR Spin Relaxation and
+    Hydrogen Bond Analysis
+  authors: SM Mutisya, A Kirch, **JM de Almeida**, VM Sánchez, CR Miranda
+  venue: The Journal of Physical Chemistry C 121 (12), 6674-6684 (2017)
+  year: 2017
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b12412
+  image: molecular-dynamics-simulations-of-water-confined-i-76d0c6.gif
+  abstract: >-
+    We study water confined in calcite (104) slit pores from 6 to 1 nm by molecular dynamics. By determining
+    NMR parameters combined with hydrogen bond network analysis, we provide an important contribution
+    to the understanding of the dynamics of water confined. The water dynamics was found uncorrelated
+    upon confinement within calcite, with the translational dynamics highly dependent on the local density
+    variations and the rotational dynamics varying with local hydrogen bond connectivity. A water layered
+    structuring is observed, and the layer by layer analysis reveals that translational dynamics are the
+    main contribution to spin relaxation of near surface water molecules. The T2 relaxation time for water
+    molecules directly hydrogen bonded to the surface is short and pore size independent; however, a bulk-like
+    spin relaxation is observed at the center of pores larger than 3 nm. The hydrogen bond network of
+    confined water has a more continuous path topology that results in the slightly longer rotational
+    correlation time for water located up to 2 nm from the surface. Moreover, the number of tetrahedral
+    geometric patterns which are associated with bulk water is reduced upon confinement. The confinement
+    effects are enhanced mainly in the 1 nm pore due to overlap of surface effects.
+
+- title: 'Improved oil recovery in nanopores: NanoIOR'
+  authors: '**JM De Almeida**, CR Miranda'
+  venue: Scientific reports 6, 28128 (2016)
+  year: 2016
+  url: https://www.nature.com/articles/srep28128
+  abstract: >-
+    Fluid flow through minerals pores occurs in underground aquifers, oil and shale gas reservoirs. In
+    this work, we explore water and oil flow through silica nanopores. Our objective is to model the displacement
+    of water and oil through a nanopore to mimic the fluid infiltration on geological nanoporous media
+    and the displacement of oil with and without previous contact with water by water flooding to emulate
+    an improved oil recovery process at nanoscale (NanoIOR). We have observed a barrier-less infiltration
+    of water and oil on the empty (vacuum) simulated 4 nm diameter nanopores. For the water displacement
+    with oil, we have obtained a critical pressure of 600 atm for the oil infiltration, and after the
+    flow was steady, a water layer was still adsorbed to the surface, thus, hindering the direct contact
+    of the oil with the surface. In addition, oil displacement with water was assessed, with and without
+    an adsorbed water layer (AWL). Without the AWL, the pressure needed for oil infiltration was 5000 atm,
+    whereas, with the AWL the infiltration was observed for pressures as low as 10 atm. Hence, the infiltration
+    is greatly affected by the AWL, significantly lowering the critical pressure for oil displacement.
+
+- title: Electronic transport in patterned graphene nanoroads
+  authors: '**JM de Almeida**, AR Rocha, AK Singh, A Fazzio, AJR da Silva'
+  venue: Nanotechnology 24 (49), 495201 (2013)
+  year: 2013
+  url: https://iopscience.iop.org/article/10.1088/0957-4484/24/49/495201/meta
+  image: electronic-transport-in-patterned-graphene-nanoroa-b7105d.jpg
+  abstract: >-
+    Graphane, hydrogenated graphene, can be patterned into electronic devices by selectively removing
+    hydrogen atoms. The most simple of such devices is the so-called nanoroad, analogous to the graphene
+    nanoribbon, where confinement—and the opening of a gap—is obtained without the need for breaking the
+    carbon bonds. In this work we address the electronic transport properties of such systems considering
+    different hydrogen impurities within the conduction channel. We show, using a combination of density
+    functional theory and non-equilibrium Green’s functions, that hydrogen leads to significant changes
+    in the transport properties and in some cases to current polarization.
+
+- title: 'Spin filtering and disorder-induced magnetoresistance in carbon nanotubes: Ab initio calculations'
+  authors: '**JM de Almeida**, AR Rocha, AJR da Silva, A Fazzio'
+  venue: Physical Review B 84 (8), 085412 (2011)
+  year: 2011
+  url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.085412
+  image: spin-filtering-and-disorder-induced-magnetoresista-055b8b.png
+  abstract: >-
+    Nitrogen-doped carbon nanotubes can provide reactive sites on the porphyrin-like defects. It is well
+    known that many porphyrins have transition-metal atoms, and we have explored transition-metal atoms
+    bonded to those porphyrin-like defects in N-doped carbon nanotubes. The electronic structure and transport
+    are analyzed by means of a combination of density functional theory and recursive Green's function
+    methods. The results determined the heme B–like defect (an iron atom bonded to four nitrogens) is
+    the most stable and has a higher polarization current for a single defect. With randomly positioned
+    heme B defects in nanotubes a few hundred nanometers long, the polarization reaches near 100%, meaning
+    they are effective spin filters. A disorder-induced magnetoresistance effect is also observed in those
+    long nanotubes, and values as high as 20 000% are calculated with nonmagnectic eletrodes.
+
+- title: AlN, GaN, AlxGa1-xN nanotubes and GaN/AlxGa1-xN nanotube heterojunctions
+  authors: '**JM de Almeida**, T Kar, P Piquini'
+  venue: Physics Letters A 374 (6), 877-881 (2010)
+  year: 2010
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0375960109015187
+  image: aln-gan-alxga1-xn-nanotubes-and-gan-alxga1-xn-nano-a5628e.jpg
+  abstract: >-
+    Semiconductor optoelectronic devices based on GaN and on InGaN or AlGaN alloys and superlattices can
+    operate in a wide range of wavelengths, from far infrared to near ultraviolet region. The efficiency
+    of these devices could be enhanced by shrinking the size and increasing the density of the semiconductor
+    components. Nanostructured materials are natural candidates to fulfill these requirements. Here we
+    use the density functional theory to study the electronic and structural properties of nanotubes of
+    GaN, AlN, and their alloys, as well as their heterojunctions. The AlGaN alloy nanotubes exhibit direct
+    band gaps for the whole range of Al compositions, with band gaps varying from 3.45 to 4.85 eV, and
+    a negative band gap bowing coefficient of −0.14 eV. The GaN/AlGaN alloy nanotube heterojunctions show
+    a type-I band alignment, with the valence band offsets showing a non-linear dependence with the Al
+    content in the nanotube alloy. The results show the possibility of engineering the band gaps and band
+    offsets of these III-nitrides nanotubes by alloying on the cation sites.

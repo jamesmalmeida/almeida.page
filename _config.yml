@@ -1,0 +1,38 @@
+title: James M. de Almeida
+description: Pesquisa em simulação molecular, ciência de materiais e aprendizado de máquina.
+email: james@almeida.page
+url: https://www.almeida.page
+baseurl: ""
+lang: pt-BR
+
+scholar: https://scholar.google.com.br/citations?user=12cupvwAAAAJ&hl=en
+github: https://github.com/jamesmalmeida
+
+collections:
+  courses:
+    output: true
+    permalink: /courses-disciplinas/:name
+
+defaults:
+  - scope: { path: "", type: courses }
+    values: { layout: course }
+  - scope: { path: "" }
+    values: { layout: default }
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 2..3
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
