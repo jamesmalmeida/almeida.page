@@ -2,6 +2,14 @@
 # Para adicionar um artigo, copie um bloco e preencha os campos.
 # image: nome do arquivo em assets/img/ (opcional). Use **...** para destacar seu nome.
 
+- title: 'Toxicity of the herbicide atrazine is modulated by graphene oxide and tannic acid interactions in zebrafish embryos: an experimental and computational study'
+  authors: Romana Petry, Gabriela Silva, Aline Maria Zigiotto de Medeiros, Ian Rouse, Daniel S. Violin, Theodoro Rosa Salles, João M. Faria, **James M. de Almeida**, Julia Subbotina, Iseult Lynch, Adalberto Fazzio, Vladimir Lobaskin, Diego Martinez
+  venue: 'Environmental Science: Nano, Advance Article (2026)'
+  year: 2026
+  url: https://doi.org/10.1039/D6EN00486E
+  abstract: >-
+    The environmental impact of pollutants is strongly shaped by the composition of the matrices in which they occur. Co-occurring contaminants can generate mixture-toxicity effects that are often difficult to predict, and the organic fraction of these matrices can influence pollutant transport, persistence, and bioavailability. Due to their distinctive properties, when nanomaterials reach the environment, they alter the fate and toxicity of cooccurring pollutants potentially increasing their adverse effects on living organisms through multiple mechanisms. Specifically, nanomaterials adsorb components of the medium, especially organic molecules, forming an "ecocorona". The influence of the ecocorona on nanomaterial-pollutant interactions and its consequent effects on mixture ecotoxicity remain insufficiently explored. In this study, we investigated the acute toxicity of mixtures of atrazine (ATZ), graphene oxide (GO), and tannic acid (TA) in zebrafish using an integrated experimental and computational approach. We assessed ATZ-induced developmental, neurotoxic, and histopathological effects in zebrafish embryos and found that GO and TA differentially modulate ATZ toxicity when applied individually or together. To understand the underlying mechanisms, we performed atomistic and coarse-grained simulations of ATZ-TA interactions as well as their adsorption onto the GO surface. We found that the ATZ forms stable complexes with TA, which adsorbs onto GO flakes, which explains the observed mixture effects.
+
 - title: Interpretable Machine Learning of Nanoparticle Stability through Topological Layer Embeddings
   authors: Felipe Hawthorne, Leandro Seixas, **James M. Almeida**, Cristiano F. Woellner, Raphael M. Tromer
   venue: The Journal of Physical Chemistry A, 130, 5293-5307 (2026)
