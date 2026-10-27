@@ -17,7 +17,7 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
   (URLs antigas do Google Sites, com acento).
 - `_includes/` — embeds: `youtube.html id=`, `drive.html id=` (arquivo), `drive-folder.html id=`,
   `sheet.html id=` (planilha). Ex.: `{% include drive.html id="1AbC..." %}`.
-- `assets/css/style.css` — todo o visual (cores em variáveis no `:root`, com modo escuro).
+- `assets/css/style.css` — todo o visual (cores em variáveis no `:root`; só tema claro, fundo branco — o James não quer modo escuro).
 
 ## Tarefas comuns
 
