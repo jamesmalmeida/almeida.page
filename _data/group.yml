@@ -4,12 +4,14 @@
 
 current:
   - name: Antonio Augusto Alves Junior
+    photo: antonio-augusto-alves-junior.jpg
     role: Pós-doutorado
     since: 2024
     topic: Desenvolvimento da MIDb ([midb.cloud](http://www.midb.cloud))
     funding: CNPEM, CNPq
 
   - name: Leonardo Bitencourt Vetritti
+    photo: leonardo-bitencourt-vetritti.jpg
     role: Pós-doutorado
     since: 2026
     topic: Processamento de linguagem natural para pontos quânticos de carbono
@@ -17,6 +19,7 @@ current:
     lattes: "4283139554816672"
 
   - name: Arthur da Silva Sousa Santos
+    photo: arthur-da-silva-sousa-santos.jpg
     role: Doutorado
     since: 2024
     topic: Processamento de linguagem natural aplicado a óxidos de alta entropia
@@ -25,6 +28,7 @@ current:
     lattes: "3598199190541057"
 
   - name: Carlos Eduardo Gonçalves Santos
+    photo: carlos-eduardo-goncalves-santos.jpg
     role: Doutorado
     since: 2025
     topic: Simulações computacionais de materiais para catálise eletroquímica e otimização via aprendizado de máquina ativo
@@ -33,6 +37,7 @@ current:
     lattes: "8783064005868869"
 
   - name: Duanny Silva Onório
+    photo: duanny-silva-onorio.jpg
     role: Doutorado
     since: 2025
     topic: Aprendizado ativo para o desenvolvimento de novas nanopartículas metálicas, com aplicações em eletrocatálise
@@ -40,6 +45,7 @@ current:
     lattes: "4533444998489866"
 
   - name: Maria Eduarda de Oliveira Crist
+    photo: maria-eduarda-de-oliveira-crist.jpg
     role: Mestrado
     since: 2026
     topic: Dinâmica e propriedades de soluções aquosas confinadas através de potenciais interatômicos de aprendizado de máquina
@@ -47,6 +53,7 @@ current:
     lattes: "4966263380247990"
 
   - name: André de Araújo Caetano
+    photo: andre-de-araujo-caetano.jpg
     role: Mestrado (coorientação)
     since: 2026
     topic: Modelagem de emulsões de nanocelulose
@@ -55,6 +62,7 @@ current:
     lattes: "2934694795422790"
 
   - name: Enzo Januzzi Xavier
+    photo: enzo-januzzi-xavier.jpg
     role: Iniciação científica
     since: 2025
     topic: Estudo de nanopartículas de cobre e rutênio para redução de óxido nítrico
