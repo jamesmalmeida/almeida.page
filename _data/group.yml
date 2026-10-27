@@ -87,16 +87,6 @@ alumni:
     topic: "Realistic molecular dipole prediction: an ab initio/machine learning approach"
     place: Ilum
 
-  - name: Anailson Santos Silva
-    role: Iniciação científica (2023)
-    topic: Base de dados de referências espectroscópicas e cristalográficas para o SIRIUS
-    place: CNPEM
-
-  - name: Francis Germánico Villacrés Merchán
-    role: Iniciação científica (2023)
-    topic: Fluxo automatizado de simulações espectroscópicas e cristalográficas para o SIRIUS
-    place: CNPEM
-
   - name: Eduardo Teixeira de Aguiar Veiga
     role: Iniciação científica (2022)
     topic: Estudo de interfaces óleo/salmoura por meio de dinâmica molecular clássica
