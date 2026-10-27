@@ -2,6 +2,11 @@
 # Para adicionar um artigo, copie um bloco e preencha os campos.
 # image: nome do arquivo em assets/img/ (opcional). Use **...** para destacar seu nome.
 
+- title: 'Data-Driven Discovery of High-Performance EOR Surfactants: Coupling Molecular Dynamics with Active Learning'
+  authors: Eduardo Teixeira de Aguiar Veiga, Ednilsom Orestes, Renato D. Cunha, Paula Homem-de-Mello, Conny Cerai Ferreira, **James Moraes de Almeida**
+  venue: ACS Omega, accepted (2026)
+  year: 2026
+
 - title: 'Toxicity of the herbicide atrazine is modulated by graphene oxide and tannic acid interactions in zebrafish embryos: an experimental and computational study'
   authors: Romana Petry, Gabriela Silva, Aline Maria Zigiotto de Medeiros, Ian Rouse, Daniel S. Violin, Theodoro Rosa Salles, João M. Faria, **James M. de Almeida**, Julia Subbotina, Iseult Lynch, Adalberto Fazzio, Vladimir Lobaskin, Diego Martinez
   venue: 'Environmental Science: Nano, Advance Article (2026)'
