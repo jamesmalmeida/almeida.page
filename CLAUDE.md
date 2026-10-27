@@ -27,3 +27,10 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
 - **Nova disciplina:** criar `_courses/<slug-sem-acento>.md` copiando o front matter de
   outra; material do Drive via includes.
 - **Pré-visualizar:** `bundle exec jekyll serve` (requer `ruby-dev` e `bundle install`).
+
+## Publicação
+
+- Repositório: github.com/jamesmalmeida/almeida.page (GitHub Pages, branch `main`, raiz).
+- Enquanto o DNS de almeida.page ainda aponta para o Google Sites, o site fica em
+  jamesmalmeida.github.io/almeida.page com `baseurl: "/almeida.page"`. Ao migrar o domínio:
+  `baseurl: ""`, criar `CNAME` com `www.almeida.page` e configurar o DNS.
