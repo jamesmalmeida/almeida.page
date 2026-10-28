@@ -38,6 +38,7 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
 ## Publicação
 
 - Repositório: github.com/jamesmalmeida/almeida.page (GitHub Pages, branch `main`, raiz).
-- Enquanto o DNS de almeida.page ainda aponta para o Google Sites, o site fica em
-  jamesmalmeida.github.io/almeida.page com `baseurl: "/almeida.page"`. Ao migrar o domínio:
-  `baseurl: ""`, criar `CNAME` com `www.almeida.page` e configurar o DNS.
+- Domínio: www.almeida.page (arquivo `CNAME`); `almeida.page` redireciona para o www.
+- DNS na Squarespace Domains (ex-Google Domains): A `@` → 185.199.108–111.153, CNAME `www` →
+  jamesmalmeida.github.io. **Não mexer** nos registros do Mailgun (MX, SPF, `krs._domainkey`)
+  nem no CNAME de verificação do Google (`engpnpnkvxgg`).

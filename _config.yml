@@ -2,7 +2,7 @@ title: James M. de Almeida
 description: Pesquisa em simulação molecular, ciência de materiais e aprendizado de máquina.
 email: james@almeida.page
 url: https://www.almeida.page
-baseurl: "/almeida.page"  # temporário: voltar para "" ao apontar o domínio
+baseurl: ""
 lang: pt-BR
 
 scholar: https://scholar.google.com.br/citations?user=12cupvwAAAAJ&hl=en
