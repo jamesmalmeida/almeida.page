@@ -6,11 +6,16 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
 
 ## Estrutura
 
-- `index.md` — Home. `/home` redireciona para `/`.
+- `index.md` — Home: card Group (largura total, fotos dos membros atuais) acima de Research e Courses. `/home` redireciona para `/`.
+- Menu (`_layouts/default.html`): Home, Group, Research, Courses.
 - `research.md` — interesses, códigos, resumo de produção e lista de publicações.
 - `_data/publications.yml` — **todas as publicações**, mais recentes primeiro.
   A página agrupa por `year`. Campos: `title`, `authors` (use `**...**` no próprio nome),
   `venue`, `year`, `url`, `image` (opcional, arquivo em `assets/img/`), `abstract`.
+  `pdf` (opcional, arquivo em `assets/pdf/`) mostra um botão "PDF". **Só pôr o PDF da editora
+  quando a licença permite**: acesso aberto (Creative Commons) ou APS. ACS, Elsevier, RSC, Wiley,
+  Springer, IOP e OTC fechados: só a versão aceita do autor (ex.: do Overleaf), nunca o PDF final.
+  PDFs publicados do James: `/data/GDrive/Dropbox/Papers-Published/`.
 - `group.md` + `_data/group.yml` — página Group: `current` e `alumni` (name, role, since,
   topic, funding, note, place, lattes = só o número, scholar = URL, orcid = só o identificador, photo = arquivo em `assets/img/group/`).
   Sem foto, o card mostra as iniciais.

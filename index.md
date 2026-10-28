@@ -9,6 +9,13 @@ redirect_from:
 </section>
 
 <div class="cards">
+  <a class="card card-wide" href="{{ '/group' | relative_url }}">
+    <div class="card-faces">
+      {% for m in site.data.group.current %}{% if m.photo %}<img src="{{ '/assets/img/group/' | append: m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy">{% endif %}{% endfor %}
+    </div>
+    <h2>Group</h2>
+    <p>Current members and alumni of the research group.</p>
+  </a>
   <a class="card" href="{{ '/research' | relative_url }}">
     <img src="{{ '/assets/img/home-research.jpg' | relative_url }}" alt="James M. de Almeida usando óculos de realidade virtual diante de uma visualização molecular" loading="lazy">
     <h2>Research</h2>

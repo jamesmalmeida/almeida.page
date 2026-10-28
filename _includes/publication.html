@@ -5,6 +5,7 @@
     <h4 class="pub-title">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h4>
     <p class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
     <p class="pub-venue">{{ p.venue }}</p>
+    {% if p.pdf %}<p class="pub-links"><a href="{{ '/assets/pdf/' | append: p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a></p>{% endif %}
     {% if p.abstract %}<details><summary>Abstract</summary><p>{{ p.abstract }}</p></details>{% endif %}
   </div>
 </article>

@@ -18,6 +18,7 @@
 - title: Interpretable Machine Learning of Nanoparticle Stability through Topological Layer Embeddings
   authors: Felipe Hawthorne, Leandro Seixas, **James M. Almeida**, Cristiano F. Woellner, Raphael M. Tromer
   venue: The Journal of Physical Chemistry A, 130, 5293-5307 (2026)
+  pdf: 2026-interpretable-machine-learning-of-nanoparticle-stability.pdf
   year: 2026
   url: https://doi.org/10.1021/acs.jpca.6c01508
   image: interpretable-ml-nanoparticle-stability.png
@@ -47,6 +48,7 @@
     Arthur da Silva Sousa Santos, **James Moraes de Almeida**, Fabiane de Jesus Trindade, Marissol Rodrigues
     Felez, Larissa da Silva Marques, Daniel Zanetti de Florio
   venue: Open Ceramics, Volume 26, 100982 (2026)
+  pdf: 2026-machine-learning-assisted-prediction-and-synthesis.pdf
   year: 2026
   url: https://www.sciencedirect.com/science/article/pii/S2666539526000787
   image: machine-learning-assisted-prediction-and-synthesis-b27e6b.jpg
@@ -70,6 +72,7 @@
     Arthur da Silva Sousa Santos, Elena Stojanovska, Antonio Augusto Alves Junior, Amauri Jardim de Paula,
     Daniel Zanetti de Florio, and **James Moraes de Almeida**
   venue: Journal of Chemical Information and Modeling, 66, 9, 5234–5248 (2026)
+  pdf: 2026-rational-design-of-single-phase-high.pdf
   year: 2026
   url: https://pubs.acs.org/doi/full/10.1021/acs.jcim.6c00752
   image: rational-design-of-single-phase-high-entropy-oxide-0c0aa6.png
@@ -102,6 +105,7 @@
     Paola Ferraz, João F.G.A. Oliveira, Eduardo X. Miqueles, Nathaly L. Archilha, Igor Torquato, **James
     M. Almeida**, Daniel G. Cedeño, Sebastião W. da Silva, Reinhardt A. Fuck, Hélio C. N. Tolentino
   venue: Scientific Reports, 16, 23034 (2026)
+  pdf: 2026-iron-oxyhydroxide-as-water-carrier-to.pdf
   year: 2026
   url: https://doi.org/10.1038/s41598-026-46683-8
   image: iron-oxyhydroxide-water-carrier.jpg
@@ -120,6 +124,7 @@
   authors: >-
     Maria C.S. Oliveira, Caroline E.P. Silva, Elisa S. Ferreira, **James M. Almeida**, Juliana S. Bernardes
   venue: Food Hydrocolloids, 178, 112665 (2026)
+  pdf: 2026-interfacial-stabilization-mechanism-in-one-step.pdf
   year: 2026
   url: https://doi.org/10.1016/j.foodhyd.2026.112665
   image: interfacial-stabilization-mechanism-in-one-step-w--658996.jpg
@@ -149,6 +154,7 @@
     Amauri J. Paula, Romana Petry, **James M. Almeida**, André A. Caetano, José Sales, Odair P. Ferreira,
     Diego S. T. Martinez, Henry J. Kobs, Andreia F. Faria
   venue: ACS Applied Nano Materials, 9, 1, 28–44 (2026)
+  pdf: 2026-large-scale-meta-analysis-of-nanomaterials.pdf
   year: 2026
   url: https://doi.org/10.1021/acsanm.5c05119
   image: large-scale-meta-analysis-of-nanomaterials-toxicit-17c3bb.png
@@ -180,6 +186,7 @@
     Valéria Spolon Marangoni, Leandro Nascimento Lemos, Leandro Merces, Natasha Fioretto Aguero, **James
     Moraes de Almeida**
   venue: Revista Brasileira de Ensino de Física, 48, e20250171 (2026)
+  pdf: 2026-por-que-o-ceu-e-azul.pdf
   year: 2026
   url: https://doi.org/10.1590/1806-9126-RBEF-2025-0171
   image: por-que-o-ceu-e-azul.jpg
@@ -246,6 +253,7 @@
     **James Moraes de Almeida**, Bruno Fedosse Zornio, Alvaro David Torrez Baptista, and Caetano Rodrigues
     Miranda
   venue: ACS Omega, 10, 30, 33959–33964 (2025)
+  pdf: 2025-charge-effects-on-the-adsorption-of.pdf
   year: 2025
   url: https://pubs.acs.org/doi/full/10.1021/acsomega.5c06363
   image: charge-effects-on-the-adsorption-of-octanoic-acid--cf8d46.jpg
@@ -262,10 +270,11 @@
     representation of the adsorption of charged molecules on mineral surfaces, which could be extended
     to other systems.
 
-- title: Enhancing catalyst activity of two-dimensional CN through doping for the hydrogen evolution reaction
+- title: Metal-Free Doping Strategies in Two-Dimensional Carbon Nitride C4N2 for Enhanced Hydrogen Evolution Catalysis
   authors: >-
     Bruno Ipaves, João F. Justo, **James M. de Almeida**, Lucy V. C. Assali, Pedro Alves da Silva Autreto
   venue: ACS Omega, 10, 38, 44248–44259 (2025)
+  pdf: 2025-enhancing-catalyst-activity-of-two-dimensional.pdf
   year: 2025
   url: https://pubs.acs.org/doi/full/10.1021/acsomega.5c05773
   image: enhancing-catalyst-activity-of-two-dimensional-cn--4a102d.jpg
@@ -288,6 +297,7 @@
     Romana Petry, **James M. de Almeida**, Francine Côa, Felipe Crasto de Lima, Diego Stéfani T. Martinez,
     Adalberto Fazzio
   venue: Beilstein J. Nanotechnol. 2024, 15, 1297–1311 (2024)
+  pdf: 2024-interaction-of-graphene-oxide-with-tannic.pdf
   year: 2024
   url: https://www.beilstein-journals.org/bjnano/articles/15/105
   image: interaction-of-graphene-oxide-with-tannic-acid-com-a39652.png
@@ -314,6 +324,7 @@
     Paula J. F. Cala, Guilherme G. Dariani, Eduardo T. A. Veiga, Pedro H. D. Macedo, Amauri J. Paula,
     and **James M. Almeida**
   venue: J. Braz. Chem. Soc. 35, 12, (2024)
+  pdf: 2024-predictive-modeling-of-surface-tension-in.pdf
   year: 2024
   url: https://www.scielo.br/j/jbchs/a/vZpJ8QPhrnPhdmcDrqgcwjQ/?lang=en
   image: predictive-modeling-of-surface-tension-in-chemical-2de72e.png
@@ -333,6 +344,7 @@
 - title: Revolutionizing ORR Catalyst Design through Computational Methodologies and Materials Informatics
   authors: Lanna E. B. Lucchetti, **James M. de Almeida** and Samira Siahrostami
   venue: EES Catalysis, 2, 1037-1058 (2024)
+  pdf: 2024-revolutionizing-orr-catalyst-design-through-computational.pdf
   year: 2024
   url: https://pubs.rsc.org/en/content/articlehtml/2024/ey/d4ey00104d
   image: revolutionizing-orr-catalyst-design-through-comput-a642e5.png
@@ -545,6 +557,7 @@
   authors: >-
     Lanna E. B. Lucchetti, Pedro A. S. Autreto, **James M. de Almeida**, Mauro C. Santos, Samira Siahrostami
   venue: Reaction Chemistry & Engineering, 8, 1285 (2023)
+  pdf: 2023-unravelling-catalytic-activity-trends-in-ceria.pdf
   year: 2023
   url: https://pubs.rsc.org/en/content/articlehtml/2023/re/d3re00027c
   image: unravelling-catalytic-activity-trends-in-ceria-sur-4a3c49.png
@@ -570,6 +583,7 @@
     Renato D Cunha, Livia J Ferreira, Ednilsom Orestes, Mauricio D Coutinho-Neto, **James M de Almeida**,
     Rogério M Carvalho, Cleiton D Maciel, Carles Curutchet, Paula Homem-de-Mello
   venue: Computation, 10, 10, 170 (2022)
+  pdf: 2022-naphthenic-acids-aggregation-the-role-of.pdf
   year: 2022
   url: https://www.mdpi.com/2079-3197/10/10/170
   image: naphthenic-acids-aggregation-the-role-of-salinity-4c184b.png
@@ -749,6 +763,7 @@
 - title: Confinement and hydrophilicity effects on geologically relevant fluids in silica nanopores
   authors: '**JM de Almeida**, CR Miranda'
   venue: Physical Review Fluids, 5, 083801 (2020)
+  pdf: 2020-confinement-and-hydrophilicity-effects-on-geologically.pdf
   year: 2020
   url: https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.5.083801
   abstract: >-
@@ -1010,6 +1025,7 @@
 - title: 'Improved oil recovery in nanopores: NanoIOR'
   authors: '**JM De Almeida**, CR Miranda'
   venue: Scientific reports 6, 28128 (2016)
+  pdf: 2016-improved-oil-recovery-in-nanopores-nanoior.pdf
   year: 2016
   url: https://www.nature.com/articles/srep28128
   abstract: >-
@@ -1044,6 +1060,7 @@
 - title: 'Spin filtering and disorder-induced magnetoresistance in carbon nanotubes: Ab initio calculations'
   authors: '**JM de Almeida**, AR Rocha, AJR da Silva, A Fazzio'
   venue: Physical Review B 84 (8), 085412 (2011)
+  pdf: 2011-spin-filtering-and-disorder-induced-magnetoresistance.pdf
   year: 2011
   url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.085412
   image: spin-filtering-and-disorder-induced-magnetoresista-055b8b.png
