@@ -12,7 +12,7 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
   A página agrupa por `year`. Campos: `title`, `authors` (use `**...**` no próprio nome),
   `venue`, `year`, `url`, `image` (opcional, arquivo em `assets/img/`), `abstract`.
 - `group.md` + `_data/group.yml` — página Group: `current` e `alumni` (name, role, since,
-  topic, funding, note, place, lattes = só o número, photo = arquivo em `assets/img/group/`).
+  topic, funding, note, place, lattes = só o número, scholar = URL, orcid = só o identificador, photo = arquivo em `assets/img/group/`).
   Sem foto, o card mostra as iniciais.
 - `courses-disciplinas.md` — lista automática das disciplinas (ordenada por `order`, decrescente).
 - `_courses/<slug>.md` — uma página por disciplina. Front matter: `title`, `period`,
