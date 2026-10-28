@@ -26,7 +26,10 @@ Meet the students and postdocs I supervise, current and former, on the [Group]({
 
 ## Codes
 
-My codes are available at my GitHub page: [github.com/jamesmalmeida]({{ site.github }})
+Codes are available on GitHub:
+
+- Personal: [github.com/jamesmalmeida]({{ site.github }})
+- Group: [github.com/James-Almeida-Group]({{ site.github_group }})
 
 ## Production Summary
 

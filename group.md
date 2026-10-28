@@ -6,6 +6,8 @@ title: Group
   <h1>Group</h1>
 </section>
 
+Group codes and repositories: [github.com/James-Almeida-Group]({{ site.github_group }})
+
 ## Current members
 
 <div class="members">
