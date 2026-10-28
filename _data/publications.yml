@@ -396,6 +396,7 @@
 - title: Cerium doped graphene-based materials towards oxygen reduction reaction catalysis
   authors: Lanna E.B. Lucchetti, Pedro A.S. Autreto, Mauro C. Santos, **James M. de Almeida**
   venue: Materials Today Communications, 108461 (2024)
+  manuscript: 2024-am-cerium-doped-graphene-based-materials-towards.pdf
   year: 2024
   url: https://www.sciencedirect.com/science/article/abs/pii/S2352492824004410?via%3Dihub
   image: cerium-doped-graphene-based-materials-towards-oxyg-00eca4.jpg
@@ -450,6 +451,7 @@
     Lucas Bandeira, Henrique Ferreira dos Santos, **James Moraes de Almeida**, Amauri Jardim de Paula,
     Gustavo Martini Dalpian
   venue: ACS Sustainable Chemistry & Engineering, 12, 11 (2024)
+  manuscript: 2024-am-co2-reduction-beyond-copper-based-catalysts.pdf
   year: 2024
   url: https://pubs.acs.org/doi/10.1021/acssuschemeng.3c06920
   image: co2-reduction-beyond-copper-based-catalysts-a-natu-d03e5b.jpg
@@ -505,6 +507,7 @@
     **James Moraes de Almeida**, Conny Cerai Ferreira, Lucas Bandeira, Renato D. Cunha, Mauricio Domingues
     Coutinho-Neto, Paula Homem-De-Mello, Ednilsom Orestes, Regina Sandra Veiga Nascimento
   venue: The Journal of Physical Chemistry B, 127, 43, 9356 (2023)
+  manuscript: 2023-am-synergistic-interaction-of-hyperbranched-polyglycerols-and.pdf
   year: 2023
   url: https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.3c01707
   image: synergistic-interaction-of-hyperbranched-polyglyce-bb0fb4.png
@@ -698,7 +701,8 @@
 
 - title: Probing the dynamics of water over multiple pore scales in cement by atomistic simulations
   authors: SM Mutisya, **JM de Almeida**, CR Miranda
-  venue: Applied Surface Science, 895, 15, 115429 (2021)
+  venue: Applied Surface Science, 565, 150426 (2021)
+  manuscript: 2021-am-probing-the-dynamics-of-water-over.pdf
   year: 2021
   url: https://doi.org/10.1016/j.apsusc.2021.150426
   image: probing-the-dynamics-of-water-over-multiple-pore-s-757242.jpg
@@ -718,6 +722,7 @@
 - title: Electronic Structure of Water from Koopmans-Compliant Functionals
   authors: '**JM de Almeida**, NL Nguyen, N Colonna, W Chen, CR Miranda, A Pasquarello, N Marzari'
   venue: J. Chem. Theory Comput., 17 (7), 3923–3930 (2021)
+  manuscript: 2021-am-electronic-structure-of-water-from-koopmans.pdf
   year: 2021
   url: https://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00063
   image: electronic-structure-of-water-from-koopmans-compli-b55e53.gif
@@ -785,6 +790,7 @@
     Dynamics
   authors: A Kirch, YM Celaschi, **JM de Almeida**, CR Miranda
   venue: ACS Appl. Mater. Interfaces 12, 13, 15837-15843 (2020)
+  manuscript: 2020-am-brine-oil-interfacial-tension-modeling-assessment.pdf
   year: 2020
   url: https://pubs.acs.org/doi/10.1021/acsami.9b22189
   image: brine-oil-interfacial-tension-modeling-assessment--d03206.gif
@@ -813,6 +819,7 @@
     Mechanisms
   authors: GD da Silva, EF Martins, MA Salvador, ADT Baptista, **JM de Almeida**, CR Miranda
   venue: Polytechnica 2 (1-2), 30-50 (2019)
+  manuscript: 2019-am-from-atoms-to-pre-salt-reservoirs.pdf
   year: 2019
   url: https://link.springer.com/article/10.1007/s41050-019-00014-1
   image: from-atoms-to-pre-salt-reservoirs-multiscale-simul-06530d.jpg

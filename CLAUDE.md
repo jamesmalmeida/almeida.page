@@ -16,6 +16,9 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
   quando a licença permite**: acesso aberto (Creative Commons) ou APS. ACS, Elsevier, RSC, Wiley,
   Springer, IOP e OTC fechados: só a versão aceita do autor (ex.: do Overleaf), nunca o PDF final.
   PDFs publicados do James: `/data/GDrive/Dropbox/Papers-Published/`.
+  `manuscript` (opcional, `assets/pdf/AAAA-am-*.pdf`) mostra o botão "Accepted manuscript": versão
+  aceita do autor (Overleaf), com capa contendo o aviso exigido pela editora (ACS, Elsevier CC-BY-NC-ND,
+  Springer) e o DOI. Sem marcações de revisão (destaques amarelos etc.).
 - `group.md` + `_data/group.yml` — página Group: `current` e `alumni` (name, role, since,
   topic, funding, note, place, lattes = só o número, scholar = URL, orcid = só o identificador, photo = arquivo em `assets/img/group/`).
   Sem foto, o card mostra as iniciais.
