@@ -3,6 +3,11 @@
 # lattes: só o número do currículo.
 
 current:
+  - name: James Moraes de Almeida
+    photo: james-moraes-de-almeida.jpg
+    role: Principal Investigator
+    lattes: "4169321429650165"
+
   - name: Antonio Augusto Alves Junior
     photo: antonio-augusto-alves-junior.jpg
     role: Postdoc
