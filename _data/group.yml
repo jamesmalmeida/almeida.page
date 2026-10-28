@@ -71,47 +71,47 @@ current:
 
 alumni:
   - name: Lanna Emilli Barbosa Lucchetti
-    role: Postdoc (2023) · PhD, co-supervised (2022)
+    role: PhD, co-supervised (2020–2022) · Postdoc (2022–2023)
     topic: Theoretical analysis of the oxygen reduction reaction in carbon materials modified with metal oxides
     place: UFABC
 
   - name: Paula Jimena Fonseca Cala
-    role: Master's, co-supervised (2023)
+    role: Master's, co-supervised (2022–2023)
     topic: Prediction of the surface tension of hydrocarbons with regressors based on machine learning techniques
     place: UFC
 
   - name: Lucas Bandeira
-    role: Master's, co-supervised (2022)
+    role: Master's, co-supervised (2021–2022)
     topic: Natural language processing methods applied to CO2/CO reduction problems
     place: UFABC
 
   - name: Paulo Henrique A. dos Santos
-    role: Undergraduate research (2025)
+    role: Undergraduate research (2024–2025)
     topic: Natural language processing for extracting CO2 reduction reaction data
     place: CNPEM
 
   - name: Pedro Henrique Sophia
-    role: Undergraduate research (2024)
+    role: Undergraduate research (2023–2024)
     topic: "Realistic molecular dipole prediction: an ab initio/machine learning approach"
     place: Ilum
 
   - name: Eduardo Teixeira de Aguiar Veiga
-    role: Undergraduate research (2022)
+    role: Undergraduate research (2020–2022)
     topic: Oil/brine interfaces studied with classical molecular dynamics
     place: UFABC
 
   - name: Ana Carolina Fonseca de Abreu
-    role: Undergraduate research (2022)
+    role: Undergraduate research (2020–2022)
     topic: Molecular dynamics applied to fuels
     place: UFABC
 
   - name: Pedro Henrique Donassan de Macedo
-    role: Undergraduate research (2021)
+    role: Undergraduate research (2020–2021)
     topic: Materials informatics applied to the oil industry
     place: UFABC
 
   - name: Pedro Victor Marcelino Jordao Motta
-    role: Undergraduate research (2020)
+    role: Undergraduate research (2019–2020)
     topic: Mechanical properties of concentric hybrid carbon and boron nitride nanotubes
     place: UFABC
 
@@ -121,6 +121,6 @@ alumni:
     place: EPFL
 
   - name: Samihr Valentim Hermes
-    role: Undergraduate research (2013)
+    role: Undergraduate research (2012–2013)
     topic: Atomistic study of cement nanotubes
     place: UFABC
