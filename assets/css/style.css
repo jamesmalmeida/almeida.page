@@ -61,6 +61,12 @@ h3 { font-size: 1.15rem; margin-top: 1.6em; }
 .stats strong { display: block; font-size: 1.6rem; color: var(--accent); }
 .stats span { color: var(--muted); font-size: .9rem; }
 .year { color: var(--muted); margin-top: 2.2em; }
+/* on desktop the publication list breaks out of the 960px column so figures can be larger */
+@media (min-width: 1000px) {
+  .pubs { width: min(1240px, 100vw - 48px); margin-left: 50%; transform: translateX(-50%); }
+  .pubs .pub { grid-template-columns: 1fr 340px; gap: 28px; }
+  .pubs .pub-img { width: 340px; max-height: 240px; }
+}
 .pub { display: grid; grid-template-columns: 1fr 180px; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .pub:not(:has(.pub-img)) { grid-template-columns: 1fr; }
 .pub-img { order: 2; width: 180px; max-height: 140px; object-fit: contain; background: #fff; border-radius: 6px; }

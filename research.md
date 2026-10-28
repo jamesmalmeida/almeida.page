@@ -45,7 +45,9 @@ Citations and indices: [Google Scholar]({{ site.scholar }}), checked 2026-10-27.
 ## Publications
 
 {% assign by_year = site.data.publications | group_by: "year" %}
+<div class="pubs">
 {% for y in by_year %}
 <h3 class="year">{{ y.name }}</h3>
 {% for p in y.items %}{% include publication.html pub=p %}{% endfor %}
 {% endfor %}
+</div>
