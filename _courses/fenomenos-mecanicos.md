@@ -85,6 +85,10 @@ Horário de atendimento:
 
 {% include drive.html id="1MucQ9hQzRsocheIHfLg6GvzzRef0BS-a" %}
 
+### Lista 1
+
+[Lista 1 (PDF)]({{ '/assets/courses/fenomenos-mecanicos/lista-1.pdf' | relative_url }})
+
 ### Slides das aulas teóricas
 
 {% include drive.html id="1cQI7PRqSYoo-YakQZyDLCuWC-kTN-Xhy" %}
@@ -124,5 +128,7 @@ Horário de atendimento:
 {% include drive.html id="1bfNEP_VtR9syVGxOETJihYBfj7t0Bm22" %}
 
 ### Slides das aulas de laboratório
+
+[Aula de Laboratório 1 (PDF)]({{ '/assets/courses/fenomenos-mecanicos/aula-laboratorio-1.pdf' | relative_url }}) · [Roteiro: Lei de Hooke (PDF)]({{ '/assets/courses/fenomenos-mecanicos/roteiro-lei-de-hooke.pdf' | relative_url }})
 
 {% include drive.html id="1b9dehUYVoEIW-_MJjhBWpj2YZ4kKJU4z" %}
