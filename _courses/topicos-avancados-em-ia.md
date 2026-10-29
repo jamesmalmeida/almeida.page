@@ -34,7 +34,9 @@ lessons:
   - n: 4
     title: "Aprendizado ativo"
     files:
-      - label: "Slides"
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/16OsfAz7UC8ZXURP9Gz4gdpsbQN-v-aDH/view
+      - label: "PDF (sem vídeos)"
         file: aula04-slides.pdf
       - label: "Notebook"
         file: aula04-notebook.ipynb
@@ -47,5 +49,7 @@ Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM) · MTD-601
 Disciplina em andamento: o material de cada aula é publicado depois que ela é dada. Os notebooks
 leem os dados de uma pasta `data/` ao lado do notebook; salve lá os arquivos `.csv`/`.xls` da aula
 (sem o prefixo `aulaNN-`).
+
+Aulas com vídeos têm os slides em PPTX, com os vídeos (no Google Drive), e uma versão leve em PDF, sem os vídeos.
 
 {% include lessons.html %}

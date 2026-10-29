@@ -18,7 +18,9 @@ lessons:
   - n: 2
     title: "Dinâmica molecular e interações intermoleculares"
     files:
-      - label: "Slides"
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1TTxP-eAlrlEpnsZyPh4IBnHdyBHrcTfH/view
+      - label: "PDF (sem vídeos)"
         file: aula02-slides.pdf
   - n: 3
     title: "Interações intermoleculares: o grupo heme"
@@ -37,7 +39,9 @@ lessons:
   - n: 6
     title: "Multiplicidade e DFT no grupo heme"
     files:
-      - label: "Slides"
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1GoivI6sKpvXToar8T1EJe5WuwqOEBTfK/view
+      - label: "PDF (sem vídeos)"
         file: aula06-slides.pdf
       - label: "Notebook"
         file: aula06-notebook.ipynb
@@ -81,5 +85,7 @@ Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM), Bacharelad
 
 Os cálculos usam o Amber (dinâmica molecular), o ORCA (química quântica molecular) e o VASP (sólidos).
 A Aula 4 foi uma atividade prática sem slides.
+
+Aulas com vídeos têm os slides em PPTX, com os vídeos (no Google Drive), e uma versão leve em PDF, sem os vídeos.
 
 {% include lessons.html %}
