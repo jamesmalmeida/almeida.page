@@ -1,0 +1,6 @@
+! B3LYP def2-TZVP Opt
+
+%maxcore 2000 
+%pal nprocs 8 end 
+
+* xyzfile 0 1 optimized_heme.xyz
