@@ -5,9 +5,6 @@ institution: Ilum
 status: concluída
 order: "2026-1a"
 coteaching: "Disciplina com os professores Leandro N. Lemos e Daniel R. Cassar."
-materials:
-  - label: "Ementa ATP-103 (PDF)"
-    file: ementa.pdf
 lessons:
   - n: 1
     title: "Processamento de strings"

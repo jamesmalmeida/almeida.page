@@ -5,9 +5,6 @@ institution: Ilum
 status: concluída
 order: "2025-1"
 coteaching: "Disciplina com os professores Daniel R. Cassar e Felipe Crasto de Lima."
-materials:
-  - label: "Plano da disciplina (PDF)"
-    file: plano.pdf
 lessons:
   - n: 1
     title: "O que é a matéria mole? Conteúdo e avaliação"

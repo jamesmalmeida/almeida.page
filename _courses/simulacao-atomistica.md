@@ -4,9 +4,6 @@ period: Primeiro semestre de 2026
 institution: Ilum
 status: concluída
 order: "2026-1"
-materials:
-  - label: "Plano de Desenvolvimento (PDF)"
-    file: plano-de-desenvolvimento.pdf
 lessons:
   - n: 1
     title: "Apresentação do curso e modelos"

@@ -4,9 +4,6 @@ period: Segundo semestre de 2026
 institution: Ilum
 status: em andamento
 order: "2026-2"
-materials:
-  - label: "Plano de Desenvolvimento (PDF)"
-    file: plano-de-desenvolvimento.pdf
 lessons:
   - n: 1
     title: "Apresentação do curso e revisão"
