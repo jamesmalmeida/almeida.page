@@ -39,8 +39,22 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
   - Citações, h-index, i10: abrir o perfil do Google Scholar (`site.scholar`) pelo plugin do
     Chrome, ler a tabela `#gsc_rsb_st` (coluna "All") e atualizar os números e a data em
     "checked AAAA-MM-DD".
-- **Nova disciplina:** criar `_courses/<slug-sem-acento>.md` copiando o front matter de
-  outra; material do Drive via includes.
+- **Disciplinas (Courses):** `_courses/<slug>.md` com `institution: Ilum|UFABC`, `status: em andamento|concluída`,
+  `coteaching` (opcional), `materials:` e `lessons:` (n, title, files[label, file]). A tabela vem de
+  `_includes/lessons.html`; arquivos relativos ficam em `assets/courses/<slug>/`, valores com `://` são links.
+  - Fonte: `/data/GDrive/Dropbox/Aulas`. Só a **versão mais recente** de cada disciplina; em andamento, só a atual,
+    e cada aula entra **depois de dada**.
+  - **Nunca publicar** notas, listas de presença, grupos, trabalhos/relatórios/diários de alunos, provas, testes
+    em sala, resoluções/gabaritos (inclusive de listas), livros/artigos de terceiros, arquivos internos
+    (HANDOVER, CLAUDE.md, scripts de montagem). Copiar arquivo por arquivo, nunca pasta inteira.
+  - Slides: `.pptx` → PDF (LibreOffice + Ghostscript), tirando os slides de teste/resolução e os que tenham
+    nomes de alunos; notebooks com saídas limpas.
+  - **Deck com vídeos:** o PDF sozinho não serve. O `.pptx` limpo (sem testes, notas do apresentador e comentários)
+    e os vídeos de aula completa vão para `/data/GDrive/almeida.page-material/<slug>/` (sincroniza com o Google
+    Drive pelo Insync; pasta compartilhada "qualquer pessoa com o link") e entram na tabela como link do Drive;
+    o PDF fica como "PDF (sem vídeos)".
+  - Antes de publicar, conferir o texto de tudo contra a lista de nomes de alunos (montada das planilhas de
+    notas, só localmente), e-mails, RAs e chaves de API.
 - **Pré-visualizar:** `bundle exec jekyll serve` (requer `ruby-dev` e `bundle install`).
 
 ## Publicação
