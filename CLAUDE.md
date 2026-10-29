@@ -46,7 +46,7 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
     e cada aula entra **depois de dada**.
   - **Nunca publicar** notas, listas de presença, grupos, trabalhos/relatórios/diários de alunos, provas, testes
     em sala, resoluções/gabaritos (inclusive de listas), livros/artigos de terceiros, arquivos internos
-    (HANDOVER, CLAUDE.md, scripts de montagem). Copiar arquivo por arquivo, nunca pasta inteira.
+    (HANDOVER, CLAUDE.md, scripts de montagem), nem **planos de desenvolvimento / planos de ensino / ementas**. Copiar arquivo por arquivo, nunca pasta inteira.
   - Slides: `.pptx` → PDF (LibreOffice + Ghostscript), tirando os slides de teste/resolução e os que tenham
     nomes de alunos; notebooks com saídas limpas.
   - **Deck com vídeos:** o PDF sozinho não serve. O `.pptx` limpo (sem testes, notas do apresentador e comentários)

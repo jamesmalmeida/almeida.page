@@ -4,9 +4,6 @@ period: Segundo semestre de 2024
 institution: Ilum
 status: concluída
 order: "2024-2"
-materials:
-  - label: "Plano de Desenvolvimento (PDF)"
-    file: plano-de-desenvolvimento.pdf
 lessons:
   - n: 1
     title: "Colisões na escala molecular: movimento molecular em gases"

@@ -5,9 +5,6 @@ institution: Ilum
 status: em andamento
 order: "2026-2a"
 coteaching: "Disciplina com a Profa. Valéria Spolon Marangoni; ministro o bloco de eletroquímica."
-materials:
-  - label: "Plano de Desenvolvimento (PDF)"
-    file: plano-de-desenvolvimento.pdf
 lessons:
   - n: 1
     title: "Da célula ao eletrodo em operação: Nernst, Pourbaix, sobretensão, Butler–Volmer e Tafel"
