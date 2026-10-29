@@ -13,7 +13,9 @@ lessons:
   - n: 2
     title: "Estabilidade termodinâmica"
     files:
-      - label: "Slides"
+      - label: "Slides com animações (PPTX)"
+        file: https://drive.google.com/file/d/1Wblh5_s2XG6prluxPcebk84utdAbGZez/view
+      - label: "PDF (sem animações)"
         file: aula02-slides.pdf
   - n: 3
     title: "Equação fundamental, extensividade e relação de Gibbs–Duhem"

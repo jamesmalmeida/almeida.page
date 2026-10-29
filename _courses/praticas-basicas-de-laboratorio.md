@@ -42,7 +42,9 @@ lessons:
   - n: 4
     title: "Arduino III: sensores"
     files:
-      - label: "Slides"
+      - label: "Slides com animações (PPTX)"
+        file: https://drive.google.com/file/d/1fI_5z6nWunNJGtGaVbtbNiZlpqb3dbSK/view
+      - label: "PDF (sem animações)"
         file: aula04-slides.pdf
       - label: "Apostila"
         file: aula04-apostila.pdf
@@ -71,5 +73,7 @@ lessons:
 Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM), Bacharelado em Ciência e Tecnologia
 
 Os roteiros e apostilas de Arduino foram escritos para as turmas de 2023 e 2024.
+
+Aulas com animações têm os slides em PPTX (no Google Drive) e uma versão leve em PDF, sem as animações.
 
 {% include lessons.html %}

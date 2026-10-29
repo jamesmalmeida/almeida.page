@@ -49,7 +49,7 @@ lista permitida do GitHub Pages (hoje: jekyll-redirect-from, jekyll-seo-tag, jek
     (HANDOVER, CLAUDE.md, scripts de montagem), nem **planos de desenvolvimento / planos de ensino / ementas**. Copiar arquivo por arquivo, nunca pasta inteira.
   - Slides: `.pptx` → PDF (LibreOffice + Ghostscript), tirando os slides de teste/resolução e os que tenham
     nomes de alunos; notebooks com saídas limpas.
-  - **Deck com vídeos:** o PDF sozinho não serve. O `.pptx` limpo (sem testes, notas do apresentador e comentários)
+  - **Deck com vídeos ou GIFs animados:** o PDF sozinho não serve. O `.pptx` limpo (sem testes, notas do apresentador e comentários)
     e os vídeos de aula completa vão para `/data/GDrive/almeida.page-material/<slug>/` (sincroniza com o Google
     Drive pelo Insync; pasta compartilhada "qualquer pessoa com o link") e entram na tabela como link do Drive;
     o PDF fica como "PDF (sem vídeos)".
