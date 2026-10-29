@@ -1,6 +1,7 @@
 ---
 title: Física Ondulatória
 period: Segundo quadrimestre de 2019
+institution: UFABC
 order: "2019-2"
 image: banner-fisica-ondulatoria.jpg
 thumb: thumb-fisica-ondulatoria.jpg
@@ -85,26 +86,6 @@ Salas de Aula:
 –23/08/2019: Prova de Recuperação.
 
 –26-30/08/2019: Provas orais.
-
-### Avaliação anônima do professor
-
-[Abrir formulário](https://docs.google.com/forms/d/e/1FAIpQLSelOfdSGRjk8dcBc8WM8PYlCBfdC_0ej8u-SUkyFTY0QvwUgw/viewform)
-
-### Notas
-
-Eventuais problemas com as notas entrar em contato.
-
-Vista de prova será na sexta-feira 23/08/2019 as 19:00 na sala S306-1, a mesma das aulas.
-
-Quadros em branco é porque não identifiquei a atividade como entregue.
-
-{% include drive.html id="15C13moQNyqXSIgcgxAfub2tAIFqDVgtf" %}
-
-### Provas
-
-{% include drive.html id="1ZaPgHPlO3FtKPGIOxe6wm0AKbFJZghH3" %}
-
-{% include drive.html id="1I-1ju6CHyoDbdeEpSKc2EWaRABi-k_6V" %}
 
 ### Slides
 

@@ -1,6 +1,7 @@
 ---
 title: Fenômenos Eletromagnéticos
 period: Quadrimestre Suplementar 1 de 2021
+institution: UFABC
 order: "2020-4"
 image: banner-fenomenos-eletromagneticos.jpg
 thumb: thumb-fenomenos-eletromagneticos.jpg
@@ -62,14 +63,6 @@ redirect_from:
 - P. A. Tipler e G. Mosca, Física: Para Cientistas e Engenheiros, Vol 2
 - H. D. Young e R. A. Freedman, Sears & Zemansky's University Physics with modern Physics (em inglês)
 - D. C. Giancoli, Physics for Scientists and Engineers, Vol. 2 (em inglês)
-
-## Notas Provisórias - Pré Sub e Exame
-
-{% include sheet.html id="10wAyq4-RmoeFNfx1LVQPRsO0acnqniVPpamlsmRxYJM" %}
-
-## Grupos de Laboratório
-
-{% include sheet.html id="1DI2q4eRasXIzuABfwaeZq4Lxw374Y7DeFDPjwTkp5vw" %}
 
 ## Aulas Síncronas Gravadas
 

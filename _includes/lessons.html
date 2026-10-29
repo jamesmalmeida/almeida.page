@@ -1,0 +1,31 @@
+{%- comment -%}
+Tabela de aulas a partir de page.lessons. Arquivos relativos ficam em /assets/courses/<slug>/;
+valores com "://" são links externos (ex.: GitHub Release).
+{%- endcomment -%}
+{% assign base = '/assets/courses/' | append: page.slug | append: '/' %}
+{% if page.materials %}
+<ul class="materials">
+{% for m in page.materials %}{% if m.file contains '://' %}{% assign href = m.file %}{% else %}{% assign href = base | append: m.file | relative_url %}{% endif %}
+  <li><a href="{{ href }}" target="_blank" rel="noopener">{{ m.label }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+<div class="lessons-wrap">
+<table class="lessons">
+  <thead><tr><th>Aula</th><th>Tema</th><th>Material</th></tr></thead>
+  <tbody>
+  {% for l in page.lessons %}
+    <tr>
+      <td class="lesson-n">{{ l.n }}</td>
+      <td>{{ l.title }}</td>
+      <td class="lesson-files">
+        {%- for f in l.files -%}
+          {%- if f.file contains '://' -%}{%- assign href = f.file -%}{%- else -%}{%- assign href = base | append: f.file | relative_url -%}{%- endif -%}
+          <a href="{{ href }}" target="_blank" rel="noopener">{{ f.label }}</a>
+        {%- endfor -%}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

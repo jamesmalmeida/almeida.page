@@ -1,6 +1,7 @@
 ---
 title: Fenômenos Mecânicos
 period: Terceiro quadrimestre de 2019
+institution: UFABC
 order: "2019-3"
 image: banner-fenomenos-mecanicos.jpg
 thumb: thumb-fenomenos-mecanicos.jpg
@@ -79,14 +80,6 @@ Horário de atendimento:
   - Laboratório: Reposição.
 - Semana 13 - 18/12:
   - Prova de Recuperação: 18/12/2019.
-
-## Notas
-
-{% include sheet.html id="1UmomQaKNkUo3PHlXB7P76IVBejoM4oO7WSuPXXYcMsU" %}
-
-### Provas Antigas
-
-{% include drive-folder.html id="1b1qPW5Wb1zemP5sopKC5PT59YBknVoSs" %}
 
 ### Lista de Exercícios Suplementar
 

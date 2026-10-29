@@ -1,6 +1,7 @@
 ---
 title: Ciência de Dados e IA para Materiais
 period: Terceiro quadrimestre de 2025
+institution: UFABC
 order: "2025-3"
 image: banner-ciencia-de-dados-e-ia-para-materiais.png
 thumb: thumb-ciencia-de-dados-e-ia-para-materiais.png

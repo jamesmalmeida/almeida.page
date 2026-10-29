@@ -1,6 +1,7 @@
 ---
 title: Interações Atômicas e Moleculares
 period: Primeiro quadrimestre de 2020
+institution: UFABC
 order: "2020-1"
 image: banner-interacoes-atomicas-e-moleculares.png
 thumb: thumb-interacoes-atomicas-e-moleculares.png
