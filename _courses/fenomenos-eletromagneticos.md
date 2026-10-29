@@ -74,53 +74,79 @@ redirect_from:
 
 {% include youtube.html id="ZN7oQbJ1pTg" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-11-26.pdf' | relative_url }})
+
 ### Aula de Regência 24/11/2020
 
 {% include youtube.html id="51IIv_QlaYs" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-11-24.pdf' | relative_url }})
 
 ### Aula de Tutoria 19/11/2020
 
 {% include youtube.html id="hz6pzC-EDW8" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-11-19.pdf' | relative_url }})
+
 ### Aula de Regência 17/11/2020
 
 {% include youtube.html id="RbZoXINxO-E" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-11-17.pdf' | relative_url }})
 
 ### Aula de Tutoria 12/11/2020
 
 {% include youtube.html id="AyFoWTtJx_k" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-11-12.pdf' | relative_url }})
+
 ### Aula de Regência 10/11/2020
 
 {% include youtube.html id="vDMzCxcDK0w" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-11-10.pdf' | relative_url }})
 
 ### Aula de Tutoria 05/11/2020
 
 {% include youtube.html id="X7Ngicv7rJg" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-11-05.pdf' | relative_url }})
+
 ### Aula de Regência 03/11/2020
 
 {% include youtube.html id="TqBoBwO2vf4" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-11-03.pdf' | relative_url }})
 
 ### Aula de Tutoria 29/10/2020
 
 {% include youtube.html id="43rLlXjr2fo" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-10-29.pdf' | relative_url }})
+
 ### Aula de Regência 27/10/2020
 
 {% include youtube.html id="PnD_wFJg6kg" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-10-27.pdf' | relative_url }})
 
 ### Aula de Tutoria 22/10/2020
 
 {% include youtube.html id="N-Gyhmmk6vY" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-10-22.pdf' | relative_url }})
+
 ### Aula de Regência 20/10/2020
 
 {% include youtube.html id="kLK9kuMFOl0" %}
 
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/regencia-2020-10-20.pdf' | relative_url }})
+
 ### Aula de Tutoria 15/10/2020
 
 {% include youtube.html id="7o80Mjmbnsc" %}
+
+[Slides (PDF)]({{ '/assets/courses/fenomenos-eletromagneticos/tutoria-2020-10-15.pdf' | relative_url }})
 
 ### Aula de Regência 13/10/2020
 
