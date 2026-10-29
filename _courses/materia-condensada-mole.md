@@ -14,7 +14,9 @@ lessons:
   - n: 2
     title: "Molhabilidade e capilaridade"
     files:
-      - label: "Slides"
+      - label: "Slides com animações (PPTX)"
+        file: https://drive.google.com/file/d/1VzXKHt3dVRZ2w6LQtF03iK1s8tsniCfe/view
+      - label: "PDF (sem animações)"
         file: aula02-slides.pdf
       - label: "Exercícios (capilaridade em plantas)"
         file: aula02-exercicios.pdf
@@ -48,5 +50,7 @@ lessons:
 ---
 
 Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM), Bacharelado em Ciência e Tecnologia · 30 h
+
+Aulas com animações têm os slides em PPTX (no Google Drive) e uma versão leve em PDF, sem as animações.
 
 {% include lessons.html %}

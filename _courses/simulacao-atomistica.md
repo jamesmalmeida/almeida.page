@@ -8,7 +8,9 @@ lessons:
   - n: 1
     title: "Apresentação do curso e modelos"
     files:
-      - label: "Slides"
+      - label: "Slides com animações (PPTX)"
+        file: https://drive.google.com/file/d/1ZhPn6S_WN9sIVIY_vdzOxcvMxU7Bwgch/view
+      - label: "PDF (sem animações)"
         file: aula01-slides.pdf
       - label: "Arquivos (Amber/packmol)"
         file: aula01-arquivos.zip
@@ -22,7 +24,9 @@ lessons:
   - n: 3
     title: "Interações intermoleculares: o grupo heme"
     files:
-      - label: "Slides"
+      - label: "Slides com animações (PPTX)"
+        file: https://drive.google.com/file/d/1_9sygR9JnG51ueBsUB9V1GIrwLVgA-1J/view
+      - label: "PDF (sem animações)"
         file: aula03-slides.pdf
       - label: "heme.pdb"
         file: aula03-heme.pdb
