@@ -51,12 +51,6 @@ redirect_from:
   - MCQUARRIE, Donald A. et al. Physical chemistry: a molecular approach. Sausalito, USA: University Science Books 1997. 1349 p.
   - PAULING, Linus et al. Introduction to quantum mechanics: with applications to chemistry. New York, USA: Dover 1935.
 
-## Plano de Ensino
-
-{% include drive.html id="1U6UBxp_D_3dBXu6mRrTm1EI-KcVkW90U" %}
-
-{% include youtube.html id="PakJNrSK5TY" %}
-
 ## Monitorias - Pendente de atualização para ECE
 
 O endereço para as monitorias online no facebook é:
