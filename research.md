@@ -36,12 +36,12 @@ Codes are available on GitHub:
 
 <div class="stats">
   <div><strong>{{ site.data.publications | size }}</strong><span>Publications</span></div>
-  <div><strong>646</strong><span>Citations</span></div>
+  <div><strong>659</strong><span>Citations</span></div>
   <div><strong>14</strong><span>h-index</span></div>
-  <div><strong>21</strong><span>i10-index</span></div>
+  <div><strong>22</strong><span>i10-index</span></div>
 </div>
 
-Citations and indices: [Google Scholar]({{ site.scholar }}), checked 2026-11-09.
+Citations and indices: [Google Scholar]({{ site.scholar }}), checked 2026-11-18.
 
 ## Publications
 
