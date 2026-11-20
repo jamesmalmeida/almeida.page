@@ -43,10 +43,9 @@ Codes are available on GitHub:
 
 Citations and indices: [Google Scholar]({{ site.scholar }}), checked 2026-11-18.
 
-## Publications
-
 {% assign by_year = site.data.publications | group_by: "year" %}
 <div class="pubs">
+<h2 id="publications">Publications</h2>
 {% for y in by_year %}
 <h3 class="year">{{ y.name }}</h3>
 {% for p in y.items %}{% include publication.html pub=p %}{% endfor %}
