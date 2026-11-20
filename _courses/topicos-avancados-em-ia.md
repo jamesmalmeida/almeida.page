@@ -42,6 +42,21 @@ lessons:
         file: aula04-notebook.ipynb
       - label: "acos.csv"
         file: aula04-acos.csv
+  - n: 5
+    title: "Processos gaussianos e otimização bayesiana"
+    files:
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1tAOfxRclWpjan0MF_dVTQkFaIq_uuIAf/view
+      - label: "Vídeo da aula"
+        file: https://drive.google.com/file/d/1QxijSS5DdbGJkgbO5dW-XxUNy8nOaM6j/view
+      - label: "PDF (sem vídeos)"
+        file: aula05-slides.pdf
+      - label: "Notebook"
+        file: aula05-notebook.ipynb
+      - label: "acos.csv"
+        file: aula04-acos.csv
+      - label: "steel_strength.json.gz"
+        file: aula05-steel_strength.json.gz
 ---
 
 Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM) · MTD-601

@@ -75,6 +75,17 @@ lessons:
         file: aula08-slides.pdf
       - label: "Notebook"
         file: aula08-notebook.ipynb
+  - n: 9
+    title: "Redes neurais convolucionais (CNNs)"
+    files:
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1Vi_xOFZU3Ce2fcLEWv7-njVz-ejhWaDL/view
+      - label: "Vídeo da aula"
+        file: https://drive.google.com/file/d/1FgKL-V1yJdeZ54X2bIDJYVtjEAj73fmG/view
+      - label: "PDF (sem vídeos)"
+        file: aula09-slides.pdf
+      - label: "Notebook"
+        file: aula09-notebook.ipynb
 ---
 
 Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM), Bacharelado em Ciência e Tecnologia · 80 h

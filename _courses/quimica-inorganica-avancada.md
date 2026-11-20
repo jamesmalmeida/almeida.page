@@ -34,6 +34,15 @@ lessons:
         file: aula02-elgrishi2018_figS3_10Vs.csv
       - label: "elgrishi2018_figS4.csv"
         file: aula02-elgrishi2018_figS4_picos.csv
+  - n: 3
+    title: "Transferência de elétrons (Marcus) e eletrocatálise (Tafel, Sabatier, vulcão da HER)"
+    files:
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1D_C5fMSOr1xmoSmL8foXSkS3p3Mxfant/view
+      - label: "Vídeo da aula"
+        file: https://drive.google.com/file/d/10iQNTr1ITNGo6d0E9xkDAdUfIpz2ikbl/view
+      - label: "PDF (sem vídeos)"
+        file: aula03-slides.pdf
 ---
 
 Professor James Moraes de Almeida · Ilum Escola de Ciência (CNPEM)

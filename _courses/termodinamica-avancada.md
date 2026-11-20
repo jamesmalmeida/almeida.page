@@ -102,6 +102,22 @@ lessons:
         file: aula11-slides.pdf
       - label: "Lista"
         file: aula11-lista.pdf
+  - n: 12
+    title: "Misturas binárias: lacuna de miscibilidade e eutético"
+    files:
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1noEjIFtEszOeSgEJX27kVK_UvMeV_FGj/view
+      - label: "PDF (sem vídeos)"
+        file: aula12-slides.pdf
+      - label: "Lista"
+        file: aula12-lista.pdf
+  - n: 13
+    title: "Uma prévia da cinética química"
+    files:
+      - label: "Slides com vídeos (PPTX)"
+        file: https://drive.google.com/file/d/1HB_MNz8ykhq8iheDaylo38F087dli5Gj/view
+      - label: "PDF (sem vídeos)"
+        file: aula13-slides.pdf
 
 ---
 
